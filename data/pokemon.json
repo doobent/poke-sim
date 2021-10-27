@@ -1,0 +1,6088 @@
+[
+  {
+    "name": "Rhydon",
+    "health": 105,
+    "attack": 130,
+    "defense": 120,
+    "speed": 40,
+    "special": 45,
+    "type1": "ground",
+    "type2": "rock",
+    "starting_moves": [
+      "Horn Attack",
+      "Stomp",
+      "Tail Whip",
+      "Fury Attack"
+    ],
+    "learnset": [
+      {
+        "level": 30,
+        "name": "Stomp"
+      },
+      {
+        "level": 35,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 40,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 48,
+        "name": "Horn Drill"
+      },
+      {
+        "level": 55,
+        "name": "Leer"
+      },
+      {
+        "level": 64,
+        "name": "Take Down"
+      }
+    ]
+  },
+  {
+    "name": "Kangaskhan",
+    "health": 105,
+    "attack": 95,
+    "defense": 80,
+    "speed": 90,
+    "special": 40,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Comet Punch",
+      "Rage",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 26,
+        "name": "Bite"
+      },
+      {
+        "level": 31,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 36,
+        "name": "Mega Punch"
+      },
+      {
+        "level": 41,
+        "name": "Leer"
+      },
+      {
+        "level": 46,
+        "name": "Dizzy Punch"
+      }
+    ]
+  },
+  {
+    "name": "NidoranM",
+    "health": 46,
+    "attack": 57,
+    "defense": 40,
+    "speed": 50,
+    "special": 40,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Leer",
+      "Tackle",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 8,
+        "name": "Horn Attack"
+      },
+      {
+        "level": 14,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 21,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 29,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 36,
+        "name": "Horn Drill"
+      },
+      {
+        "level": 43,
+        "name": "Double Kick"
+      }
+    ]
+  },
+  {
+    "name": "Clefairy",
+    "health": 70,
+    "attack": 45,
+    "defense": 48,
+    "speed": 35,
+    "special": 60,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Pound",
+      "Growl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 13,
+        "name": "Sing"
+      },
+      {
+        "level": 18,
+        "name": "Doubleslap"
+      },
+      {
+        "level": 24,
+        "name": "Minimize"
+      },
+      {
+        "level": 31,
+        "name": "Metronome"
+      },
+      {
+        "level": 39,
+        "name": "Defense Curl"
+      },
+      {
+        "level": 48,
+        "name": "Light Screen"
+      }
+    ]
+  },
+  {
+    "name": "Spearow",
+    "health": 40,
+    "attack": 60,
+    "defense": 30,
+    "speed": 70,
+    "special": 31,
+    "type1": "normal",
+    "type2": "flying",
+    "starting_moves": [
+      "Peck",
+      "Growl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 9,
+        "name": "Leer"
+      },
+      {
+        "level": 15,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 22,
+        "name": "Mirror Move"
+      },
+      {
+        "level": 29,
+        "name": "Drill Peck"
+      },
+      {
+        "level": 36,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "Voltorb",
+    "health": 40,
+    "attack": 30,
+    "defense": 50,
+    "speed": 100,
+    "special": 55,
+    "type1": "electric",
+    "type2": "electric",
+    "starting_moves": [
+      "Tackle",
+      "Screech",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 17,
+        "name": "Sonicboom"
+      },
+      {
+        "level": 22,
+        "name": "Selfdestruct"
+      },
+      {
+        "level": 29,
+        "name": "Light Screen"
+      },
+      {
+        "level": 36,
+        "name": "Swift"
+      },
+      {
+        "level": 43,
+        "name": "Explosion"
+      }
+    ]
+  },
+  {
+    "name": "Nidoking",
+    "health": 81,
+    "attack": 92,
+    "defense": 77,
+    "speed": 85,
+    "special": 75,
+    "type1": "poison",
+    "type2": "ground",
+    "starting_moves": [
+      "Tackle",
+      "Horn Attack",
+      "Poison Sting",
+      "Thrash"
+    ],
+    "learnset": [
+      {
+        "level": 8,
+        "name": "Horn Attack"
+      },
+      {
+        "level": 14,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 23,
+        "name": "Thrash"
+      }
+    ]
+  },
+  {
+    "name": "Slowbro",
+    "health": 95,
+    "attack": 75,
+    "defense": 110,
+    "speed": 30,
+    "special": 80,
+    "type1": "water",
+    "type2": "psychic",
+    "starting_moves": [
+      "Confusion",
+      "Disable",
+      "Headbutt",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 18,
+        "name": "Disable"
+      },
+      {
+        "level": 22,
+        "name": "Headbutt"
+      },
+      {
+        "level": 27,
+        "name": "Growl"
+      },
+      {
+        "level": 33,
+        "name": "Water Gun"
+      },
+      {
+        "level": 37,
+        "name": "Withdraw"
+      },
+      {
+        "level": 44,
+        "name": "Amnesia"
+      },
+      {
+        "level": 55,
+        "name": "Psychic M"
+      }
+    ]
+  },
+  {
+    "name": "Ivysaur",
+    "health": 60,
+    "attack": 62,
+    "defense": 63,
+    "speed": 60,
+    "special": 80,
+    "type1": "grass",
+    "type2": "poison",
+    "starting_moves": [
+      "Tackle",
+      "Growl",
+      "Leech Seed",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "name": "Leech Seed"
+      },
+      {
+        "level": 13,
+        "name": "Vine Whip"
+      },
+      {
+        "level": 22,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 30,
+        "name": "Razor Leaf"
+      },
+      {
+        "level": 38,
+        "name": "Growth"
+      },
+      {
+        "level": 46,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 54,
+        "name": "Solarbeam"
+      }
+    ]
+  },
+  {
+    "name": "Exeggutor",
+    "health": 95,
+    "attack": 95,
+    "defense": 85,
+    "speed": 55,
+    "special": 125,
+    "type1": "grass",
+    "type2": "psychic",
+    "starting_moves": [
+      "Barrage",
+      "Hypnosis",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 28,
+        "name": "Stomp"
+      }
+    ]
+  },
+  {
+    "name": "Lickitung",
+    "health": 90,
+    "attack": 55,
+    "defense": 75,
+    "speed": 30,
+    "special": 60,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Wrap",
+      "Supersonic",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "name": "Stomp"
+      },
+      {
+        "level": 15,
+        "name": "Disable"
+      },
+      {
+        "level": 23,
+        "name": "Defense Curl"
+      },
+      {
+        "level": 31,
+        "name": "Slam"
+      },
+      {
+        "level": 39,
+        "name": "Screech"
+      }
+    ]
+  },
+  {
+    "name": "Exeggcute",
+    "health": 60,
+    "attack": 40,
+    "defense": 80,
+    "speed": 40,
+    "special": 60,
+    "type1": "grass",
+    "type2": "psychic",
+    "starting_moves": [
+      "Barrage",
+      "Hypnosis",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 25,
+        "name": "Reflect"
+      },
+      {
+        "level": 28,
+        "name": "Leech Seed"
+      },
+      {
+        "level": 32,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 37,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 42,
+        "name": "Solarbeam"
+      },
+      {
+        "level": 48,
+        "name": "Sleep Powder"
+      }
+    ]
+  },
+  {
+    "name": "Grimer",
+    "health": 80,
+    "attack": 80,
+    "defense": 50,
+    "speed": 25,
+    "special": 40,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Pound",
+      "Disable",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 30,
+        "name": "Poison Gas"
+      },
+      {
+        "level": 33,
+        "name": "Minimize"
+      },
+      {
+        "level": 37,
+        "name": "Sludge"
+      },
+      {
+        "level": 42,
+        "name": "Harden"
+      },
+      {
+        "level": 48,
+        "name": "Screech"
+      },
+      {
+        "level": 55,
+        "name": "Acid Armor"
+      }
+    ]
+  },
+  {
+    "name": "Gengar",
+    "health": 60,
+    "attack": 65,
+    "defense": 60,
+    "speed": 110,
+    "special": 130,
+    "type1": "ghost",
+    "type2": "poison",
+    "starting_moves": [
+      "Lick",
+      "Confuse Ray",
+      "Night Shade",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 29,
+        "name": "Hypnosis"
+      },
+      {
+        "level": 38,
+        "name": "Dream Eater"
+      }
+    ]
+  },
+  {
+    "name": "NidoranF",
+    "health": 55,
+    "attack": 47,
+    "defense": 52,
+    "speed": 41,
+    "special": 40,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Growl",
+      "Tackle",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 8,
+        "name": "Scratch"
+      },
+      {
+        "level": 14,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 21,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 29,
+        "name": "Bite"
+      },
+      {
+        "level": 36,
+        "name": "Fury Swipes"
+      },
+      {
+        "level": 43,
+        "name": "Double Kick"
+      }
+    ]
+  },
+  {
+    "name": "Nidoqueen",
+    "health": 90,
+    "attack": 82,
+    "defense": 87,
+    "speed": 76,
+    "special": 75,
+    "type1": "poison",
+    "type2": "ground",
+    "starting_moves": [
+      "Tackle",
+      "Scratch",
+      "Tail Whip",
+      "Body Slam"
+    ],
+    "learnset": [
+      {
+        "level": 8,
+        "name": "Scratch"
+      },
+      {
+        "level": 14,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 23,
+        "name": "Body Slam"
+      }
+    ]
+  },
+  {
+    "name": "Cubone",
+    "health": 50,
+    "attack": 50,
+    "defense": 95,
+    "speed": 35,
+    "special": 40,
+    "type1": "ground",
+    "type2": "ground",
+    "starting_moves": [
+      "Bone Club",
+      "Growl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 25,
+        "name": "Leer"
+      },
+      {
+        "level": 31,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 38,
+        "name": "Thrash"
+      },
+      {
+        "level": 43,
+        "name": "Bonemerang"
+      },
+      {
+        "level": 46,
+        "name": "Rage"
+      }
+    ]
+  },
+  {
+    "name": "Rhyhorn",
+    "health": 80,
+    "attack": 85,
+    "defense": 95,
+    "speed": 25,
+    "special": 30,
+    "type1": "ground",
+    "type2": "rock",
+    "starting_moves": [
+      "Horn Attack",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 30,
+        "name": "Stomp"
+      },
+      {
+        "level": 35,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 40,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 45,
+        "name": "Horn Drill"
+      },
+      {
+        "level": 50,
+        "name": "Leer"
+      },
+      {
+        "level": 55,
+        "name": "Take Down"
+      }
+    ]
+  },
+  {
+    "name": "Lapras",
+    "health": 130,
+    "attack": 85,
+    "defense": 80,
+    "speed": 60,
+    "special": 95,
+    "type1": "water",
+    "type2": "ice",
+    "starting_moves": [
+      "Water Gun",
+      "Growl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 16,
+        "name": "Sing"
+      },
+      {
+        "level": 20,
+        "name": "Mist"
+      },
+      {
+        "level": 25,
+        "name": "Body Slam"
+      },
+      {
+        "level": 31,
+        "name": "Confuse Ray"
+      },
+      {
+        "level": 38,
+        "name": "Ice Beam"
+      },
+      {
+        "level": 46,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Arcanine",
+    "health": 90,
+    "attack": 110,
+    "defense": 80,
+    "speed": 95,
+    "special": 80,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Roar",
+      "Ember",
+      "Leer",
+      "Take Down"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Mew",
+    "health": 100,
+    "attack": 100,
+    "defense": 100,
+    "speed": 100,
+    "special": 100,
+    "type1": "psychic",
+    "type2": "psychic",
+    "starting_moves": [
+      "Pound",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Transform"
+      },
+      {
+        "level": 20,
+        "name": "Mega Punch"
+      },
+      {
+        "level": 30,
+        "name": "Metronome"
+      },
+      {
+        "level": 40,
+        "name": "Psychic M"
+      }
+    ]
+  },
+  {
+    "name": "Gyarados",
+    "health": 95,
+    "attack": 125,
+    "defense": 79,
+    "speed": 81,
+    "special": 100,
+    "type1": "water",
+    "type2": "flying",
+    "starting_moves": [
+      "Bite",
+      "Dragon Rage",
+      "Leer",
+      "Hydro Pump"
+    ],
+    "learnset": [
+      {
+        "level": 20,
+        "name": "Bite"
+      },
+      {
+        "level": 25,
+        "name": "Dragon Rage"
+      },
+      {
+        "level": 32,
+        "name": "Leer"
+      },
+      {
+        "level": 41,
+        "name": "Hydro Pump"
+      },
+      {
+        "level": 52,
+        "name": "Hyper Beam"
+      }
+    ]
+  },
+  {
+    "name": "Shellder",
+    "health": 30,
+    "attack": 65,
+    "defense": 100,
+    "speed": 40,
+    "special": 45,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Tackle",
+      "Withdraw",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 18,
+        "name": "Supersonic"
+      },
+      {
+        "level": 23,
+        "name": "Clamp"
+      },
+      {
+        "level": 30,
+        "name": "Aurora Beam"
+      },
+      {
+        "level": 39,
+        "name": "Leer"
+      },
+      {
+        "level": 50,
+        "name": "Ice Beam"
+      }
+    ]
+  },
+  {
+    "name": "Tentacool",
+    "health": 40,
+    "attack": 40,
+    "defense": 35,
+    "speed": 70,
+    "special": 100,
+    "type1": "water",
+    "type2": "poison",
+    "starting_moves": [
+      "Acid",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "name": "Supersonic"
+      },
+      {
+        "level": 13,
+        "name": "Wrap"
+      },
+      {
+        "level": 18,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 22,
+        "name": "Water Gun"
+      },
+      {
+        "level": 27,
+        "name": "Constrict"
+      },
+      {
+        "level": 33,
+        "name": "Barrier"
+      },
+      {
+        "level": 40,
+        "name": "Screech"
+      },
+      {
+        "level": 48,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Gastly",
+    "health": 30,
+    "attack": 35,
+    "defense": 30,
+    "speed": 80,
+    "special": 100,
+    "type1": "ghost",
+    "type2": "poison",
+    "starting_moves": [
+      "Lick",
+      "Confuse Ray",
+      "Night Shade",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 27,
+        "name": "Hypnosis"
+      },
+      {
+        "level": 35,
+        "name": "Dream Eater"
+      }
+    ]
+  },
+  {
+    "name": "Scyther",
+    "health": 70,
+    "attack": 110,
+    "defense": 80,
+    "speed": 105,
+    "special": 55,
+    "type1": "bug",
+    "type2": "flying",
+    "starting_moves": [
+      "Quick Attack",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 17,
+        "name": "Leer"
+      },
+      {
+        "level": 20,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 24,
+        "name": "Double Team"
+      },
+      {
+        "level": 29,
+        "name": "Slash"
+      },
+      {
+        "level": 35,
+        "name": "Swords Dance"
+      },
+      {
+        "level": 42,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "Staryu",
+    "health": 30,
+    "attack": 45,
+    "defense": 55,
+    "speed": 85,
+    "special": 70,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Tackle",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 17,
+        "name": "Water Gun"
+      },
+      {
+        "level": 22,
+        "name": "Harden"
+      },
+      {
+        "level": 27,
+        "name": "Recover"
+      },
+      {
+        "level": 32,
+        "name": "Swift"
+      },
+      {
+        "level": 37,
+        "name": "Minimize"
+      },
+      {
+        "level": 42,
+        "name": "Light Screen"
+      },
+      {
+        "level": 47,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Blastoise",
+    "health": 79,
+    "attack": 83,
+    "defense": 100,
+    "speed": 78,
+    "special": 85,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Tackle",
+      "Tail Whip",
+      "Bubble",
+      "Water Gun"
+    ],
+    "learnset": [
+      {
+        "level": 8,
+        "name": "Bubble"
+      },
+      {
+        "level": 15,
+        "name": "Water Gun"
+      },
+      {
+        "level": 24,
+        "name": "Bite"
+      },
+      {
+        "level": 31,
+        "name": "Withdraw"
+      },
+      {
+        "level": 42,
+        "name": "Skull Bash"
+      },
+      {
+        "level": 52,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Pinsir",
+    "health": 65,
+    "attack": 125,
+    "defense": 100,
+    "speed": 85,
+    "special": 55,
+    "type1": "bug",
+    "type2": "bug",
+    "starting_moves": [
+      "Vicegrip",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 25,
+        "name": "Seismic Toss"
+      },
+      {
+        "level": 30,
+        "name": "Guillotine"
+      },
+      {
+        "level": 36,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 43,
+        "name": "Harden"
+      },
+      {
+        "level": 49,
+        "name": "Slash"
+      },
+      {
+        "level": 54,
+        "name": "Swords Dance"
+      }
+    ]
+  },
+  {
+    "name": "Tangela",
+    "health": 65,
+    "attack": 55,
+    "defense": 115,
+    "speed": 60,
+    "special": 100,
+    "type1": "grass",
+    "type2": "grass",
+    "starting_moves": [
+      "Constrict",
+      "Bind",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 29,
+        "name": "Absorb"
+      },
+      {
+        "level": 32,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 36,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 39,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 45,
+        "name": "Slam"
+      },
+      {
+        "level": 49,
+        "name": "Growth"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Growlithe",
+    "health": 55,
+    "attack": 70,
+    "defense": 45,
+    "speed": 60,
+    "special": 50,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Bite",
+      "Roar",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 18,
+        "name": "Ember"
+      },
+      {
+        "level": 23,
+        "name": "Leer"
+      },
+      {
+        "level": 30,
+        "name": "Take Down"
+      },
+      {
+        "level": 39,
+        "name": "Agility"
+      },
+      {
+        "level": 50,
+        "name": "Flamethrower"
+      }
+    ]
+  },
+  {
+    "name": "Onix",
+    "health": 35,
+    "attack": 45,
+    "defense": 160,
+    "speed": 70,
+    "special": 30,
+    "type1": "rock",
+    "type2": "ground",
+    "starting_moves": [
+      "Tackle",
+      "Screech",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Bind"
+      },
+      {
+        "level": 19,
+        "name": "Rock Throw"
+      },
+      {
+        "level": 25,
+        "name": "Rage"
+      },
+      {
+        "level": 33,
+        "name": "Slam"
+      },
+      {
+        "level": 43,
+        "name": "Harden"
+      }
+    ]
+  },
+  {
+    "name": "Fearow",
+    "health": 65,
+    "attack": 90,
+    "defense": 65,
+    "speed": 100,
+    "special": 61,
+    "type1": "normal",
+    "type2": "flying",
+    "starting_moves": [
+      "Peck",
+      "Growl",
+      "Leer",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 9,
+        "name": "Leer"
+      },
+      {
+        "level": 15,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 25,
+        "name": "Mirror Move"
+      },
+      {
+        "level": 34,
+        "name": "Drill Peck"
+      },
+      {
+        "level": 43,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "Pidgey",
+    "health": 40,
+    "attack": 45,
+    "defense": 40,
+    "speed": 56,
+    "special": 35,
+    "type1": "normal",
+    "type2": "flying",
+    "starting_moves": [
+      "Gust",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "name": "Sand Attack"
+      },
+      {
+        "level": 12,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 19,
+        "name": "Whirlwind"
+      },
+      {
+        "level": 28,
+        "name": "Wing Attack"
+      },
+      {
+        "level": 36,
+        "name": "Agility"
+      },
+      {
+        "level": 44,
+        "name": "Mirror Move"
+      }
+    ]
+  },
+  {
+    "name": "Slowpoke",
+    "health": 90,
+    "attack": 65,
+    "defense": 65,
+    "speed": 15,
+    "special": 40,
+    "type1": "water",
+    "type2": "psychic",
+    "starting_moves": [
+      "Confusion",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 18,
+        "name": "Disable"
+      },
+      {
+        "level": 22,
+        "name": "Headbutt"
+      },
+      {
+        "level": 27,
+        "name": "Growl"
+      },
+      {
+        "level": 33,
+        "name": "Water Gun"
+      },
+      {
+        "level": 40,
+        "name": "Amnesia"
+      },
+      {
+        "level": 48,
+        "name": "Psychic M"
+      }
+    ]
+  },
+  {
+    "name": "Kadabra",
+    "health": 40,
+    "attack": 35,
+    "defense": 30,
+    "speed": 105,
+    "special": 120,
+    "type1": "psychic",
+    "type2": "psychic",
+    "starting_moves": [
+      "Teleport",
+      "Confusion",
+      "Disable",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 16,
+        "name": "Confusion"
+      },
+      {
+        "level": 20,
+        "name": "Disable"
+      },
+      {
+        "level": 27,
+        "name": "Psybeam"
+      },
+      {
+        "level": 31,
+        "name": "Recover"
+      },
+      {
+        "level": 38,
+        "name": "Psychic M"
+      },
+      {
+        "level": 42,
+        "name": "Reflect"
+      }
+    ]
+  },
+  {
+    "name": "Graveler",
+    "health": 55,
+    "attack": 95,
+    "defense": 115,
+    "speed": 35,
+    "special": 45,
+    "type1": "rock",
+    "type2": "ground",
+    "starting_moves": [
+      "Tackle",
+      "Defense Curl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 11,
+        "name": "Defense Curl"
+      },
+      {
+        "level": 16,
+        "name": "Rock Throw"
+      },
+      {
+        "level": 21,
+        "name": "Selfdestruct"
+      },
+      {
+        "level": 29,
+        "name": "Harden"
+      },
+      {
+        "level": 36,
+        "name": "Earthquake"
+      },
+      {
+        "level": 43,
+        "name": "Explosion"
+      }
+    ]
+  },
+  {
+    "name": "Chansey",
+    "health": 250,
+    "attack": 5,
+    "defense": 5,
+    "speed": 50,
+    "special": 105,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Pound",
+      "Doubleslap",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 24,
+        "name": "Sing"
+      },
+      {
+        "level": 30,
+        "name": "Growl"
+      },
+      {
+        "level": 38,
+        "name": "Minimize"
+      },
+      {
+        "level": 44,
+        "name": "Defense Curl"
+      },
+      {
+        "level": 48,
+        "name": "Light Screen"
+      },
+      {
+        "level": 54,
+        "name": "Double Edge"
+      }
+    ]
+  },
+  {
+    "name": "Machoke",
+    "health": 80,
+    "attack": 100,
+    "defense": 70,
+    "speed": 45,
+    "special": 50,
+    "type1": "fighting",
+    "type2": "fighting",
+    "starting_moves": [
+      "Karate Chop",
+      "Low Kick",
+      "Leer",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 20,
+        "name": "Low Kick"
+      },
+      {
+        "level": 25,
+        "name": "Leer"
+      },
+      {
+        "level": 36,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 44,
+        "name": "Seismic Toss"
+      },
+      {
+        "level": 52,
+        "name": "Submission"
+      }
+    ]
+  },
+  {
+    "name": "MrMime",
+    "health": 40,
+    "attack": 45,
+    "defense": 65,
+    "speed": 90,
+    "special": 100,
+    "type1": "psychic",
+    "type2": "psychic",
+    "starting_moves": [
+      "Confusion",
+      "Barrier",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Confusion"
+      },
+      {
+        "level": 23,
+        "name": "Light Screen"
+      },
+      {
+        "level": 31,
+        "name": "Doubleslap"
+      },
+      {
+        "level": 39,
+        "name": "Meditate"
+      },
+      {
+        "level": 47,
+        "name": "Substitute"
+      }
+    ]
+  },
+  {
+    "name": "Hitmonlee",
+    "health": 50,
+    "attack": 120,
+    "defense": 53,
+    "speed": 87,
+    "special": 35,
+    "type1": "fighting",
+    "type2": "fighting",
+    "starting_moves": [
+      "Double Kick",
+      "Meditate",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 33,
+        "name": "Rolling Kick"
+      },
+      {
+        "level": 38,
+        "name": "Jump Kick"
+      },
+      {
+        "level": 43,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 48,
+        "name": "Hi Jump Kick"
+      },
+      {
+        "level": 53,
+        "name": "Mega Kick"
+      }
+    ]
+  },
+  {
+    "name": "Hitmonchan",
+    "health": 50,
+    "attack": 105,
+    "defense": 79,
+    "speed": 76,
+    "special": 35,
+    "type1": "fighting",
+    "type2": "fighting",
+    "starting_moves": [
+      "Comet Punch",
+      "Agility",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 33,
+        "name": "Fire Punch"
+      },
+      {
+        "level": 38,
+        "name": "Ice Punch"
+      },
+      {
+        "level": 43,
+        "name": "Thunderpunch"
+      },
+      {
+        "level": 48,
+        "name": "Mega Punch"
+      },
+      {
+        "level": 53,
+        "name": "Counter"
+      }
+    ]
+  },
+  {
+    "name": "Arbok",
+    "health": 60,
+    "attack": 85,
+    "defense": 69,
+    "speed": 80,
+    "special": 65,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Wrap",
+      "Leer",
+      "Poison Sting",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 17,
+        "name": "Bite"
+      },
+      {
+        "level": 27,
+        "name": "Glare"
+      },
+      {
+        "level": 36,
+        "name": "Screech"
+      },
+      {
+        "level": 47,
+        "name": "Acid"
+      }
+    ]
+  },
+  {
+    "name": "Parasect",
+    "health": 60,
+    "attack": 95,
+    "defense": 80,
+    "speed": 30,
+    "special": 80,
+    "type1": "bug",
+    "type2": "grass",
+    "starting_moves": [
+      "Scratch",
+      "Stun Spore",
+      "Leech Life",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 13,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 20,
+        "name": "Leech Life"
+      },
+      {
+        "level": 30,
+        "name": "Spore"
+      },
+      {
+        "level": 39,
+        "name": "Slash"
+      },
+      {
+        "level": 48,
+        "name": "Growth"
+      }
+    ]
+  },
+  {
+    "name": "Psyduck",
+    "health": 50,
+    "attack": 52,
+    "defense": 48,
+    "speed": 55,
+    "special": 50,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Scratch",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 28,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 31,
+        "name": "Disable"
+      },
+      {
+        "level": 36,
+        "name": "Confusion"
+      },
+      {
+        "level": 43,
+        "name": "Fury Swipes"
+      },
+      {
+        "level": 52,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Drowzee",
+    "health": 60,
+    "attack": 48,
+    "defense": 45,
+    "speed": 42,
+    "special": 90,
+    "type1": "psychic",
+    "type2": "psychic",
+    "starting_moves": [
+      "Pound",
+      "Hypnosis",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 12,
+        "name": "Disable"
+      },
+      {
+        "level": 17,
+        "name": "Confusion"
+      },
+      {
+        "level": 24,
+        "name": "Headbutt"
+      },
+      {
+        "level": 29,
+        "name": "Poison Gas"
+      },
+      {
+        "level": 32,
+        "name": "Psychic M"
+      },
+      {
+        "level": 37,
+        "name": "Meditate"
+      }
+    ]
+  },
+  {
+    "name": "Golem",
+    "health": 80,
+    "attack": 110,
+    "defense": 130,
+    "speed": 45,
+    "special": 55,
+    "type1": "rock",
+    "type2": "ground",
+    "starting_moves": [
+      "Tackle",
+      "Defense Curl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 11,
+        "name": "Defense Curl"
+      },
+      {
+        "level": 16,
+        "name": "Rock Throw"
+      },
+      {
+        "level": 21,
+        "name": "Selfdestruct"
+      },
+      {
+        "level": 29,
+        "name": "Harden"
+      },
+      {
+        "level": 36,
+        "name": "Earthquake"
+      },
+      {
+        "level": 43,
+        "name": "Explosion"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Magmar",
+    "health": 65,
+    "attack": 95,
+    "defense": 57,
+    "speed": 93,
+    "special": 85,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Ember",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 36,
+        "name": "Leer"
+      },
+      {
+        "level": 39,
+        "name": "Confuse Ray"
+      },
+      {
+        "level": 43,
+        "name": "Fire Punch"
+      },
+      {
+        "level": 48,
+        "name": "Smokescreen"
+      },
+      {
+        "level": 52,
+        "name": "Smog"
+      },
+      {
+        "level": 55,
+        "name": "Flamethrower"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Electabuzz",
+    "health": 65,
+    "attack": 83,
+    "defense": 57,
+    "speed": 105,
+    "special": 85,
+    "type1": "electric",
+    "type2": "electric",
+    "starting_moves": [
+      "Quick Attack",
+      "Leer",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 34,
+        "name": "Thundershock"
+      },
+      {
+        "level": 37,
+        "name": "Screech"
+      },
+      {
+        "level": 42,
+        "name": "Thunderpunch"
+      },
+      {
+        "level": 49,
+        "name": "Light Screen"
+      },
+      {
+        "level": 54,
+        "name": "Thunder"
+      }
+    ]
+  },
+  {
+    "name": "Magneton",
+    "health": 50,
+    "attack": 60,
+    "defense": 95,
+    "speed": 70,
+    "special": 120,
+    "type1": "electric",
+    "type2": "electric",
+    "starting_moves": [
+      "Tackle",
+      "Sonicboom",
+      "Thundershock",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 21,
+        "name": "Sonicboom"
+      },
+      {
+        "level": 25,
+        "name": "Thundershock"
+      },
+      {
+        "level": 29,
+        "name": "Supersonic"
+      },
+      {
+        "level": 38,
+        "name": "Thunder Wave"
+      },
+      {
+        "level": 46,
+        "name": "Swift"
+      },
+      {
+        "level": 54,
+        "name": "Screech"
+      }
+    ]
+  },
+  {
+    "name": "Koffing",
+    "health": 40,
+    "attack": 65,
+    "defense": 95,
+    "speed": 35,
+    "special": 60,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Tackle",
+      "Smog",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 32,
+        "name": "Sludge"
+      },
+      {
+        "level": 37,
+        "name": "Smokescreen"
+      },
+      {
+        "level": 40,
+        "name": "Selfdestruct"
+      },
+      {
+        "level": 45,
+        "name": "Haze"
+      },
+      {
+        "level": 48,
+        "name": "Explosion"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Mankey",
+    "health": 40,
+    "attack": 80,
+    "defense": 35,
+    "speed": 70,
+    "special": 35,
+    "type1": "fighting",
+    "type2": "fighting",
+    "starting_moves": [
+      "Scratch",
+      "Leer",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Karate Chop"
+      },
+      {
+        "level": 21,
+        "name": "Fury Swipes"
+      },
+      {
+        "level": 27,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 33,
+        "name": "Seismic Toss"
+      },
+      {
+        "level": 39,
+        "name": "Thrash"
+      }
+    ]
+  },
+  {
+    "name": "Seel",
+    "health": 65,
+    "attack": 45,
+    "defense": 55,
+    "speed": 45,
+    "special": 70,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Headbutt",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 30,
+        "name": "Growl"
+      },
+      {
+        "level": 35,
+        "name": "Aurora Beam"
+      },
+      {
+        "level": 40,
+        "name": "Rest"
+      },
+      {
+        "level": 45,
+        "name": "Take Down"
+      },
+      {
+        "level": 50,
+        "name": "Ice Beam"
+      }
+    ]
+  },
+  {
+    "name": "Diglett",
+    "health": 10,
+    "attack": 55,
+    "defense": 25,
+    "speed": 95,
+    "special": 45,
+    "type1": "ground",
+    "type2": "ground",
+    "starting_moves": [
+      "Scratch",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Growl"
+      },
+      {
+        "level": 19,
+        "name": "Dig"
+      },
+      {
+        "level": 24,
+        "name": "Sand Attack"
+      },
+      {
+        "level": 31,
+        "name": "Slash"
+      },
+      {
+        "level": 40,
+        "name": "Earthquake"
+      }
+    ]
+  },
+  {
+    "name": "Tauros",
+    "health": 75,
+    "attack": 100,
+    "defense": 95,
+    "speed": 110,
+    "special": 70,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Tackle",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 21,
+        "name": "Stomp"
+      },
+      {
+        "level": 28,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 35,
+        "name": "Leer"
+      },
+      {
+        "level": 44,
+        "name": "Rage"
+      },
+      {
+        "level": 51,
+        "name": "Take Down"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Farfetchd",
+    "health": 52,
+    "attack": 65,
+    "defense": 55,
+    "speed": 60,
+    "special": 58,
+    "type1": "normal",
+    "type2": "flying",
+    "starting_moves": [
+      "Peck",
+      "Sand Attack",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "name": "Leer"
+      },
+      {
+        "level": 15,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 23,
+        "name": "Swords Dance"
+      },
+      {
+        "level": 31,
+        "name": "Agility"
+      },
+      {
+        "level": 39,
+        "name": "Slash"
+      }
+    ]
+  },
+  {
+    "name": "Venonat",
+    "health": 60,
+    "attack": 55,
+    "defense": 50,
+    "speed": 45,
+    "special": 40,
+    "type1": "bug",
+    "type2": "poison",
+    "starting_moves": [
+      "Tackle",
+      "Disable",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 24,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 27,
+        "name": "Leech Life"
+      },
+      {
+        "level": 30,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 35,
+        "name": "Psybeam"
+      },
+      {
+        "level": 38,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 43,
+        "name": "Psychic M"
+      }
+    ]
+  },
+  {
+    "name": "Dragonite",
+    "health": 91,
+    "attack": 134,
+    "defense": 95,
+    "speed": 80,
+    "special": 100,
+    "type1": "dragon",
+    "type2": "flying",
+    "starting_moves": [
+      "Wrap",
+      "Leer",
+      "Thunder Wave",
+      "Agility"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Thunder Wave"
+      },
+      {
+        "level": 20,
+        "name": "Agility"
+      },
+      {
+        "level": 35,
+        "name": "Slam"
+      },
+      {
+        "level": 45,
+        "name": "Dragon Rage"
+      },
+      {
+        "level": 60,
+        "name": "Hyper Beam"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Doduo",
+    "health": 35,
+    "attack": 85,
+    "defense": 45,
+    "speed": 75,
+    "special": 35,
+    "type1": "normal",
+    "type2": "flying",
+    "starting_moves": [
+      "Peck",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 20,
+        "name": "Growl"
+      },
+      {
+        "level": 24,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 30,
+        "name": "Drill Peck"
+      },
+      {
+        "level": 36,
+        "name": "Rage"
+      },
+      {
+        "level": 40,
+        "name": "Tri Attack"
+      },
+      {
+        "level": 44,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "Poliwag",
+    "health": 40,
+    "attack": 50,
+    "defense": 40,
+    "speed": 90,
+    "special": 40,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Bubble",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 16,
+        "name": "Hypnosis"
+      },
+      {
+        "level": 19,
+        "name": "Water Gun"
+      },
+      {
+        "level": 25,
+        "name": "Doubleslap"
+      },
+      {
+        "level": 31,
+        "name": "Body Slam"
+      },
+      {
+        "level": 38,
+        "name": "Amnesia"
+      },
+      {
+        "level": 45,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Jynx",
+    "health": 65,
+    "attack": 50,
+    "defense": 35,
+    "speed": 95,
+    "special": 95,
+    "type1": "ice",
+    "type2": "psychic",
+    "starting_moves": [
+      "Pound",
+      "Lovely Kiss",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 18,
+        "name": "Lick"
+      },
+      {
+        "level": 23,
+        "name": "Doubleslap"
+      },
+      {
+        "level": 31,
+        "name": "Ice Punch"
+      },
+      {
+        "level": 39,
+        "name": "Body Slam"
+      },
+      {
+        "level": 47,
+        "name": "Thrash"
+      },
+      {
+        "level": 58,
+        "name": "Blizzard"
+      }
+    ]
+  },
+  {
+    "name": "Moltres",
+    "health": 90,
+    "attack": 100,
+    "defense": 90,
+    "speed": 90,
+    "special": 125,
+    "type1": "fire",
+    "type2": "flying",
+    "starting_moves": [
+      "Peck",
+      "Fire Spin",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 51,
+        "name": "Leer"
+      },
+      {
+        "level": 55,
+        "name": "Agility"
+      },
+      {
+        "level": 60,
+        "name": "Sky Attack"
+      }
+    ]
+  },
+  {
+    "name": "Articuno",
+    "health": 90,
+    "attack": 85,
+    "defense": 100,
+    "speed": 85,
+    "special": 125,
+    "type1": "ice",
+    "type2": "flying",
+    "starting_moves": [
+      "Peck",
+      "Ice Beam",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 51,
+        "name": "Blizzard"
+      },
+      {
+        "level": 55,
+        "name": "Agility"
+      },
+      {
+        "level": 60,
+        "name": "Mist"
+      }
+    ]
+  },
+  {
+    "name": "Zapdos",
+    "health": 90,
+    "attack": 90,
+    "defense": 85,
+    "speed": 100,
+    "special": 125,
+    "type1": "electric",
+    "type2": "flying",
+    "starting_moves": [
+      "Thundershock",
+      "Drill Peck",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 51,
+        "name": "Thunder"
+      },
+      {
+        "level": 55,
+        "name": "Agility"
+      },
+      {
+        "level": 60,
+        "name": "Light Screen"
+      }
+    ]
+  },
+  {
+    "name": "Ditto",
+    "health": 48,
+    "attack": 48,
+    "defense": 48,
+    "speed": 48,
+    "special": 48,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Transform",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Meowth",
+    "health": 40,
+    "attack": 45,
+    "defense": 35,
+    "speed": 90,
+    "special": 40,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Scratch",
+      "Growl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 12,
+        "name": "Bite"
+      },
+      {
+        "level": 17,
+        "name": "Pay Day"
+      },
+      {
+        "level": 24,
+        "name": "Screech"
+      },
+      {
+        "level": 33,
+        "name": "Fury Swipes"
+      },
+      {
+        "level": 44,
+        "name": "Slash"
+      }
+    ]
+  },
+  {
+    "name": "Krabby",
+    "health": 30,
+    "attack": 105,
+    "defense": 90,
+    "speed": 50,
+    "special": 25,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Bubble",
+      "Leer",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 20,
+        "name": "Vicegrip"
+      },
+      {
+        "level": 25,
+        "name": "Guillotine"
+      },
+      {
+        "level": 30,
+        "name": "Stomp"
+      },
+      {
+        "level": 35,
+        "name": "Crabhammer"
+      },
+      {
+        "level": 40,
+        "name": "Harden"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Vulpix",
+    "health": 38,
+    "attack": 41,
+    "defense": 40,
+    "speed": 65,
+    "special": 65,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Ember",
+      "Tail Whip",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 16,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 21,
+        "name": "Roar"
+      },
+      {
+        "level": 28,
+        "name": "Confuse Ray"
+      },
+      {
+        "level": 35,
+        "name": "Flamethrower"
+      },
+      {
+        "level": 42,
+        "name": "Fire Spin"
+      }
+    ]
+  },
+  {
+    "name": "Ninetales",
+    "health": 73,
+    "attack": 76,
+    "defense": 75,
+    "speed": 100,
+    "special": 100,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Ember",
+      "Tail Whip",
+      "Quick Attack",
+      "Roar"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Pikachu",
+    "health": 35,
+    "attack": 55,
+    "defense": 30,
+    "speed": 90,
+    "special": 50,
+    "type1": "electric",
+    "type2": "electric",
+    "starting_moves": [
+      "Thundershock",
+      "Growl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 9,
+        "name": "Thunder Wave"
+      },
+      {
+        "level": 16,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 26,
+        "name": "Swift"
+      },
+      {
+        "level": 33,
+        "name": "Agility"
+      },
+      {
+        "level": 43,
+        "name": "Thunder"
+      }
+    ]
+  },
+  {
+    "name": "Raichu",
+    "health": 60,
+    "attack": 90,
+    "defense": 55,
+    "speed": 100,
+    "special": 90,
+    "type1": "electric",
+    "type2": "electric",
+    "starting_moves": [
+      "Thundershock",
+      "Growl",
+      "Thunder Wave",
+      "No Move"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Dratini",
+    "health": 41,
+    "attack": 64,
+    "defense": 45,
+    "speed": 50,
+    "special": 50,
+    "type1": "dragon",
+    "type2": "dragon",
+    "starting_moves": [
+      "Wrap",
+      "Leer",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Thunder Wave"
+      },
+      {
+        "level": 20,
+        "name": "Agility"
+      },
+      {
+        "level": 30,
+        "name": "Slam"
+      },
+      {
+        "level": 40,
+        "name": "Dragon Rage"
+      },
+      {
+        "level": 50,
+        "name": "Hyper Beam"
+      }
+    ]
+  },
+  {
+    "name": "Dragonair",
+    "health": 61,
+    "attack": 84,
+    "defense": 65,
+    "speed": 70,
+    "special": 70,
+    "type1": "dragon",
+    "type2": "dragon",
+    "starting_moves": [
+      "Wrap",
+      "Leer",
+      "Thunder Wave",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Thunder Wave"
+      },
+      {
+        "level": 20,
+        "name": "Agility"
+      },
+      {
+        "level": 35,
+        "name": "Slam"
+      },
+      {
+        "level": 45,
+        "name": "Dragon Rage"
+      },
+      {
+        "level": 55,
+        "name": "Hyper Beam"
+      }
+    ]
+  },
+  {
+    "name": "Kabuto",
+    "health": 30,
+    "attack": 80,
+    "defense": 90,
+    "speed": 55,
+    "special": 45,
+    "type1": "rock",
+    "type2": "water",
+    "starting_moves": [
+      "Scratch",
+      "Harden",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 34,
+        "name": "Absorb"
+      },
+      {
+        "level": 39,
+        "name": "Slash"
+      },
+      {
+        "level": 44,
+        "name": "Leer"
+      },
+      {
+        "level": 49,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Kabutops",
+    "health": 60,
+    "attack": 115,
+    "defense": 105,
+    "speed": 80,
+    "special": 70,
+    "type1": "rock",
+    "type2": "water",
+    "starting_moves": [
+      "Scratch",
+      "Harden",
+      "Absorb",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 34,
+        "name": "Absorb"
+      },
+      {
+        "level": 39,
+        "name": "Slash"
+      },
+      {
+        "level": 46,
+        "name": "Leer"
+      },
+      {
+        "level": 53,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Horsea",
+    "health": 30,
+    "attack": 40,
+    "defense": 70,
+    "speed": 60,
+    "special": 70,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Bubble",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 19,
+        "name": "Smokescreen"
+      },
+      {
+        "level": 24,
+        "name": "Leer"
+      },
+      {
+        "level": 30,
+        "name": "Water Gun"
+      },
+      {
+        "level": 37,
+        "name": "Agility"
+      },
+      {
+        "level": 45,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Seadra",
+    "health": 55,
+    "attack": 65,
+    "defense": 95,
+    "speed": 85,
+    "special": 95,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Bubble",
+      "Smokescreen",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 19,
+        "name": "Smokescreen"
+      },
+      {
+        "level": 24,
+        "name": "Leer"
+      },
+      {
+        "level": 30,
+        "name": "Water Gun"
+      },
+      {
+        "level": 41,
+        "name": "Agility"
+      },
+      {
+        "level": 52,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Sandshrew",
+    "health": 50,
+    "attack": 75,
+    "defense": 85,
+    "speed": 40,
+    "special": 30,
+    "type1": "ground",
+    "type2": "ground",
+    "starting_moves": [
+      "Scratch",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Sand Attack"
+      },
+      {
+        "level": 17,
+        "name": "Slash"
+      },
+      {
+        "level": 24,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 31,
+        "name": "Swift"
+      },
+      {
+        "level": 38,
+        "name": "Fury Swipes"
+      }
+    ]
+  },
+  {
+    "name": "Sandslash",
+    "health": 75,
+    "attack": 100,
+    "defense": 110,
+    "speed": 65,
+    "special": 55,
+    "type1": "ground",
+    "type2": "ground",
+    "starting_moves": [
+      "Scratch",
+      "Sand Attack",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Sand Attack"
+      },
+      {
+        "level": 17,
+        "name": "Slash"
+      },
+      {
+        "level": 27,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 36,
+        "name": "Swift"
+      },
+      {
+        "level": 47,
+        "name": "Fury Swipes"
+      }
+    ]
+  },
+  {
+    "name": "Omanyte",
+    "health": 35,
+    "attack": 40,
+    "defense": 100,
+    "speed": 35,
+    "special": 90,
+    "type1": "rock",
+    "type2": "water",
+    "starting_moves": [
+      "Water Gun",
+      "Withdraw",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 34,
+        "name": "Horn Attack"
+      },
+      {
+        "level": 39,
+        "name": "Leer"
+      },
+      {
+        "level": 46,
+        "name": "Spike Cannon"
+      },
+      {
+        "level": 53,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Omastar",
+    "health": 70,
+    "attack": 60,
+    "defense": 125,
+    "speed": 55,
+    "special": 115,
+    "type1": "rock",
+    "type2": "water",
+    "starting_moves": [
+      "Water Gun",
+      "Withdraw",
+      "Horn Attack",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 34,
+        "name": "Horn Attack"
+      },
+      {
+        "level": 39,
+        "name": "Leer"
+      },
+      {
+        "level": 44,
+        "name": "Spike Cannon"
+      },
+      {
+        "level": 49,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Jigglypuff",
+    "health": 115,
+    "attack": 45,
+    "defense": 20,
+    "speed": 20,
+    "special": 25,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Sing",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 9,
+        "name": "Pound"
+      },
+      {
+        "level": 14,
+        "name": "Disable"
+      },
+      {
+        "level": 19,
+        "name": "Defense Curl"
+      },
+      {
+        "level": 24,
+        "name": "Doubleslap"
+      },
+      {
+        "level": 29,
+        "name": "Rest"
+      },
+      {
+        "level": 34,
+        "name": "Body Slam"
+      },
+      {
+        "level": 39,
+        "name": "Double Edge"
+      }
+    ]
+  },
+  {
+    "name": "Wigglytuff",
+    "health": 140,
+    "attack": 70,
+    "defense": 45,
+    "speed": 45,
+    "special": 50,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Sing",
+      "Disable",
+      "Defense Curl",
+      "Doubleslap"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Eevee",
+    "health": 55,
+    "attack": 55,
+    "defense": 50,
+    "speed": 55,
+    "special": 65,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Tackle",
+      "Sand Attack",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 27,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 31,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 37,
+        "name": "Bite"
+      },
+      {
+        "level": 45,
+        "name": "Take Down"
+      }
+    ]
+  },
+  {
+    "name": "Flareon",
+    "health": 65,
+    "attack": 130,
+    "defense": 60,
+    "speed": 65,
+    "special": 110,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Tackle",
+      "Sand Attack",
+      "Quick Attack",
+      "Ember"
+    ],
+    "learnset": [
+      {
+        "level": 27,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 31,
+        "name": "Ember"
+      },
+      {
+        "level": 37,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 40,
+        "name": "Bite"
+      },
+      {
+        "level": 42,
+        "name": "Leer"
+      },
+      {
+        "level": 44,
+        "name": "Fire Spin"
+      },
+      {
+        "level": 48,
+        "name": "Rage"
+      },
+      {
+        "level": 54,
+        "name": "Flamethrower"
+      }
+    ]
+  },
+  {
+    "name": "Jolteon",
+    "health": 65,
+    "attack": 65,
+    "defense": 60,
+    "speed": 130,
+    "special": 110,
+    "type1": "electric",
+    "type2": "electric",
+    "starting_moves": [
+      "Tackle",
+      "Sand Attack",
+      "Quick Attack",
+      "Thundershock"
+    ],
+    "learnset": [
+      {
+        "level": 27,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 31,
+        "name": "Thundershock"
+      },
+      {
+        "level": 37,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 40,
+        "name": "Thunder Wave"
+      },
+      {
+        "level": 42,
+        "name": "Double Kick"
+      },
+      {
+        "level": 44,
+        "name": "Agility"
+      },
+      {
+        "level": 48,
+        "name": "Pin Missile"
+      },
+      {
+        "level": 54,
+        "name": "Thunder"
+      }
+    ]
+  },
+  {
+    "name": "Vaporeon",
+    "health": 130,
+    "attack": 65,
+    "defense": 60,
+    "speed": 65,
+    "special": 110,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Tackle",
+      "Sand Attack",
+      "Quick Attack",
+      "Water Gun"
+    ],
+    "learnset": [
+      {
+        "level": 27,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 31,
+        "name": "Water Gun"
+      },
+      {
+        "level": 37,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 40,
+        "name": "Bite"
+      },
+      {
+        "level": 42,
+        "name": "Acid Armor"
+      },
+      {
+        "level": 44,
+        "name": "Haze"
+      },
+      {
+        "level": 48,
+        "name": "Mist"
+      },
+      {
+        "level": 54,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Machop",
+    "health": 70,
+    "attack": 80,
+    "defense": 50,
+    "speed": 35,
+    "special": 35,
+    "type1": "fighting",
+    "type2": "fighting",
+    "starting_moves": [
+      "Karate Chop",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 20,
+        "name": "Low Kick"
+      },
+      {
+        "level": 25,
+        "name": "Leer"
+      },
+      {
+        "level": 32,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 39,
+        "name": "Seismic Toss"
+      },
+      {
+        "level": 46,
+        "name": "Submission"
+      }
+    ]
+  },
+  {
+    "name": "Zubat",
+    "health": 40,
+    "attack": 45,
+    "defense": 35,
+    "speed": 55,
+    "special": 40,
+    "type1": "poison",
+    "type2": "flying",
+    "starting_moves": [
+      "Leech Life",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Supersonic"
+      },
+      {
+        "level": 15,
+        "name": "Bite"
+      },
+      {
+        "level": 21,
+        "name": "Confuse Ray"
+      },
+      {
+        "level": 28,
+        "name": "Wing Attack"
+      },
+      {
+        "level": 36,
+        "name": "Haze"
+      }
+    ]
+  },
+  {
+    "name": "Ekans",
+    "health": 35,
+    "attack": 60,
+    "defense": 44,
+    "speed": 55,
+    "special": 40,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Wrap",
+      "Leer",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 17,
+        "name": "Bite"
+      },
+      {
+        "level": 24,
+        "name": "Glare"
+      },
+      {
+        "level": 31,
+        "name": "Screech"
+      },
+      {
+        "level": 38,
+        "name": "Acid"
+      }
+    ]
+  },
+  {
+    "name": "Paras",
+    "health": 35,
+    "attack": 70,
+    "defense": 55,
+    "speed": 25,
+    "special": 55,
+    "type1": "bug",
+    "type2": "grass",
+    "starting_moves": [
+      "Scratch",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 13,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 20,
+        "name": "Leech Life"
+      },
+      {
+        "level": 27,
+        "name": "Spore"
+      },
+      {
+        "level": 34,
+        "name": "Slash"
+      },
+      {
+        "level": 41,
+        "name": "Growth"
+      }
+    ]
+  },
+  {
+    "name": "Poliwhirl",
+    "health": 65,
+    "attack": 65,
+    "defense": 65,
+    "speed": 90,
+    "special": 50,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Bubble",
+      "Hypnosis",
+      "Water Gun",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 16,
+        "name": "Hypnosis"
+      },
+      {
+        "level": 19,
+        "name": "Water Gun"
+      },
+      {
+        "level": 26,
+        "name": "Doubleslap"
+      },
+      {
+        "level": 33,
+        "name": "Body Slam"
+      },
+      {
+        "level": 41,
+        "name": "Amnesia"
+      },
+      {
+        "level": 49,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Poliwrath",
+    "health": 90,
+    "attack": 85,
+    "defense": 95,
+    "speed": 70,
+    "special": 70,
+    "type1": "water",
+    "type2": "fighting",
+    "starting_moves": [
+      "Hypnosis",
+      "Water Gun",
+      "Doubleslap",
+      "Body Slam"
+    ],
+    "learnset": [
+      {
+        "level": 16,
+        "name": "Hypnosis"
+      },
+      {
+        "level": 19,
+        "name": "Water Gun"
+      }
+    ]
+  },
+  {
+    "name": "Weedle",
+    "health": 40,
+    "attack": 35,
+    "defense": 30,
+    "speed": 50,
+    "special": 20,
+    "type1": "bug",
+    "type2": "poison",
+    "starting_moves": [
+      "Poison Sting",
+      "String Shot",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Kakuna",
+    "health": 45,
+    "attack": 25,
+    "defense": 50,
+    "speed": 35,
+    "special": 25,
+    "type1": "bug",
+    "type2": "poison",
+    "starting_moves": [
+      "Harden",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Beedrill",
+    "health": 65,
+    "attack": 80,
+    "defense": 40,
+    "speed": 75,
+    "special": 45,
+    "type1": "bug",
+    "type2": "poison",
+    "starting_moves": [
+      "Fury Attack",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 12,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 16,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 20,
+        "name": "Twineedle"
+      },
+      {
+        "level": 25,
+        "name": "Rage"
+      },
+      {
+        "level": 30,
+        "name": "Pin Missile"
+      },
+      {
+        "level": 35,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Dodrio",
+    "health": 60,
+    "attack": 110,
+    "defense": 70,
+    "speed": 100,
+    "special": 60,
+    "type1": "normal",
+    "type2": "flying",
+    "starting_moves": [
+      "Peck",
+      "Growl",
+      "Fury Attack",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 20,
+        "name": "Growl"
+      },
+      {
+        "level": 24,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 30,
+        "name": "Drill Peck"
+      },
+      {
+        "level": 39,
+        "name": "Rage"
+      },
+      {
+        "level": 45,
+        "name": "Tri Attack"
+      },
+      {
+        "level": 51,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "Primeape",
+    "health": 65,
+    "attack": 105,
+    "defense": 60,
+    "speed": 95,
+    "special": 60,
+    "type1": "fighting",
+    "type2": "fighting",
+    "starting_moves": [
+      "Scratch",
+      "Leer",
+      "Karate Chop",
+      "Fury Swipes"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Karate Chop"
+      },
+      {
+        "level": 21,
+        "name": "Fury Swipes"
+      },
+      {
+        "level": 27,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 37,
+        "name": "Seismic Toss"
+      },
+      {
+        "level": 46,
+        "name": "Thrash"
+      }
+    ]
+  },
+  {
+    "name": "Dugtrio",
+    "health": 35,
+    "attack": 80,
+    "defense": 50,
+    "speed": 120,
+    "special": 70,
+    "type1": "ground",
+    "type2": "ground",
+    "starting_moves": [
+      "Scratch",
+      "Growl",
+      "Dig",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Growl"
+      },
+      {
+        "level": 19,
+        "name": "Dig"
+      },
+      {
+        "level": 24,
+        "name": "Sand Attack"
+      },
+      {
+        "level": 35,
+        "name": "Slash"
+      },
+      {
+        "level": 47,
+        "name": "Earthquake"
+      }
+    ]
+  },
+  {
+    "name": "Venomoth",
+    "health": 70,
+    "attack": 65,
+    "defense": 60,
+    "speed": 90,
+    "special": 90,
+    "type1": "bug",
+    "type2": "poison",
+    "starting_moves": [
+      "Tackle",
+      "Disable",
+      "Poisonpowder",
+      "Leech Life"
+    ],
+    "learnset": [
+      {
+        "level": 24,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 27,
+        "name": "Leech Life"
+      },
+      {
+        "level": 30,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 38,
+        "name": "Psybeam"
+      },
+      {
+        "level": 43,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 50,
+        "name": "Psychic M"
+      }
+    ]
+  },
+  {
+    "name": "Dewgong",
+    "health": 90,
+    "attack": 70,
+    "defense": 80,
+    "speed": 70,
+    "special": 95,
+    "type1": "water",
+    "type2": "ice",
+    "starting_moves": [
+      "Headbutt",
+      "Growl",
+      "Aurora Beam",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 30,
+        "name": "Growl"
+      },
+      {
+        "level": 35,
+        "name": "Aurora Beam"
+      },
+      {
+        "level": 44,
+        "name": "Rest"
+      },
+      {
+        "level": 50,
+        "name": "Take Down"
+      },
+      {
+        "level": 56,
+        "name": "Ice Beam"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Caterpie",
+    "health": 45,
+    "attack": 30,
+    "defense": 35,
+    "speed": 45,
+    "special": 20,
+    "type1": "bug",
+    "type2": "bug",
+    "starting_moves": [
+      "Tackle",
+      "String Shot",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Metapod",
+    "health": 50,
+    "attack": 20,
+    "defense": 55,
+    "speed": 30,
+    "special": 25,
+    "type1": "bug",
+    "type2": "bug",
+    "starting_moves": [
+      "Harden",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Butterfree",
+    "health": 60,
+    "attack": 45,
+    "defense": 50,
+    "speed": 70,
+    "special": 80,
+    "type1": "bug",
+    "type2": "flying",
+    "starting_moves": [
+      "Confusion",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 12,
+        "name": "Confusion"
+      },
+      {
+        "level": 15,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 16,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 17,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 21,
+        "name": "Supersonic"
+      },
+      {
+        "level": 26,
+        "name": "Whirlwind"
+      },
+      {
+        "level": 32,
+        "name": "Psybeam"
+      }
+    ]
+  },
+  {
+    "name": "Machamp",
+    "health": 90,
+    "attack": 130,
+    "defense": 80,
+    "speed": 55,
+    "special": 65,
+    "type1": "fighting",
+    "type2": "fighting",
+    "starting_moves": [
+      "Karate Chop",
+      "Low Kick",
+      "Leer",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 20,
+        "name": "Low Kick"
+      },
+      {
+        "level": 25,
+        "name": "Leer"
+      },
+      {
+        "level": 36,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 44,
+        "name": "Seismic Toss"
+      },
+      {
+        "level": 52,
+        "name": "Submission"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Golduck",
+    "health": 80,
+    "attack": 82,
+    "defense": 78,
+    "speed": 85,
+    "special": 80,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Scratch",
+      "Tail Whip",
+      "Disable",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 28,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 31,
+        "name": "Disable"
+      },
+      {
+        "level": 39,
+        "name": "Confusion"
+      },
+      {
+        "level": 48,
+        "name": "Fury Swipes"
+      },
+      {
+        "level": 59,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Hypno",
+    "health": 85,
+    "attack": 73,
+    "defense": 70,
+    "speed": 67,
+    "special": 115,
+    "type1": "psychic",
+    "type2": "psychic",
+    "starting_moves": [
+      "Pound",
+      "Hypnosis",
+      "Disable",
+      "Confusion"
+    ],
+    "learnset": [
+      {
+        "level": 12,
+        "name": "Disable"
+      },
+      {
+        "level": 17,
+        "name": "Confusion"
+      },
+      {
+        "level": 24,
+        "name": "Headbutt"
+      },
+      {
+        "level": 33,
+        "name": "Poison Gas"
+      },
+      {
+        "level": 37,
+        "name": "Psychic M"
+      },
+      {
+        "level": 43,
+        "name": "Meditate"
+      }
+    ]
+  },
+  {
+    "name": "Golbat",
+    "health": 75,
+    "attack": 80,
+    "defense": 70,
+    "speed": 90,
+    "special": 75,
+    "type1": "poison",
+    "type2": "flying",
+    "starting_moves": [
+      "Leech Life",
+      "Screech",
+      "Bite",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "name": "Supersonic"
+      },
+      {
+        "level": 15,
+        "name": "Bite"
+      },
+      {
+        "level": 21,
+        "name": "Confuse Ray"
+      },
+      {
+        "level": 32,
+        "name": "Wing Attack"
+      },
+      {
+        "level": 43,
+        "name": "Haze"
+      }
+    ]
+  },
+  {
+    "name": "Mewtwo",
+    "health": 106,
+    "attack": 110,
+    "defense": 90,
+    "speed": 130,
+    "special": 154,
+    "type1": "psychic",
+    "type2": "psychic",
+    "starting_moves": [
+      "Confusion",
+      "Disable",
+      "Swift",
+      "Psychic M"
+    ],
+    "learnset": [
+      {
+        "level": 63,
+        "name": "Barrier"
+      },
+      {
+        "level": 66,
+        "name": "Psychic M"
+      },
+      {
+        "level": 70,
+        "name": "Recover"
+      },
+      {
+        "level": 75,
+        "name": "Mist"
+      },
+      {
+        "level": 81,
+        "name": "Amnesia"
+      }
+    ]
+  },
+  {
+    "name": "Snorlax",
+    "health": 160,
+    "attack": 110,
+    "defense": 65,
+    "speed": 30,
+    "special": 65,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Headbutt",
+      "Amnesia",
+      "Rest",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 35,
+        "name": "Body Slam"
+      },
+      {
+        "level": 41,
+        "name": "Harden"
+      },
+      {
+        "level": 48,
+        "name": "Double Edge"
+      },
+      {
+        "level": 56,
+        "name": "Hyper Beam"
+      }
+    ]
+  },
+  {
+    "name": "Magikarp",
+    "health": 20,
+    "attack": 10,
+    "defense": 55,
+    "speed": 80,
+    "special": 20,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Splash",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Tackle"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Muk",
+    "health": 105,
+    "attack": 105,
+    "defense": 75,
+    "speed": 50,
+    "special": 65,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Pound",
+      "Disable",
+      "Poison Gas",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 30,
+        "name": "Poison Gas"
+      },
+      {
+        "level": 33,
+        "name": "Minimize"
+      },
+      {
+        "level": 37,
+        "name": "Sludge"
+      },
+      {
+        "level": 45,
+        "name": "Harden"
+      },
+      {
+        "level": 53,
+        "name": "Screech"
+      },
+      {
+        "level": 60,
+        "name": "Acid Armor"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Kingler",
+    "health": 55,
+    "attack": 130,
+    "defense": 115,
+    "speed": 75,
+    "special": 50,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Bubble",
+      "Leer",
+      "Vicegrip",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 20,
+        "name": "Vicegrip"
+      },
+      {
+        "level": 25,
+        "name": "Guillotine"
+      },
+      {
+        "level": 34,
+        "name": "Stomp"
+      },
+      {
+        "level": 42,
+        "name": "Crabhammer"
+      },
+      {
+        "level": 49,
+        "name": "Harden"
+      }
+    ]
+  },
+  {
+    "name": "Cloyster",
+    "health": 50,
+    "attack": 95,
+    "defense": 180,
+    "speed": 70,
+    "special": 85,
+    "type1": "water",
+    "type2": "ice",
+    "starting_moves": [
+      "Withdraw",
+      "Supersonic",
+      "Clamp",
+      "Aurora Beam"
+    ],
+    "learnset": [
+      {
+        "level": 50,
+        "name": "Spike Cannon"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Electrode",
+    "health": 60,
+    "attack": 50,
+    "defense": 70,
+    "speed": 140,
+    "special": 80,
+    "type1": "electric",
+    "type2": "electric",
+    "starting_moves": [
+      "Tackle",
+      "Screech",
+      "Sonicboom",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 17,
+        "name": "Sonicboom"
+      },
+      {
+        "level": 22,
+        "name": "Selfdestruct"
+      },
+      {
+        "level": 29,
+        "name": "Light Screen"
+      },
+      {
+        "level": 40,
+        "name": "Swift"
+      },
+      {
+        "level": 50,
+        "name": "Explosion"
+      }
+    ]
+  },
+  {
+    "name": "Clefable",
+    "health": 95,
+    "attack": 70,
+    "defense": 73,
+    "speed": 60,
+    "special": 85,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Sing",
+      "Doubleslap",
+      "Minimize",
+      "Metronome"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Weezing",
+    "health": 65,
+    "attack": 90,
+    "defense": 120,
+    "speed": 60,
+    "special": 85,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Tackle",
+      "Smog",
+      "Sludge",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 32,
+        "name": "Sludge"
+      },
+      {
+        "level": 39,
+        "name": "Smokescreen"
+      },
+      {
+        "level": 43,
+        "name": "Selfdestruct"
+      },
+      {
+        "level": 49,
+        "name": "Haze"
+      },
+      {
+        "level": 53,
+        "name": "Explosion"
+      }
+    ]
+  },
+  {
+    "name": "Persian",
+    "health": 65,
+    "attack": 70,
+    "defense": 60,
+    "speed": 115,
+    "special": 65,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Scratch",
+      "Growl",
+      "Bite",
+      "Screech"
+    ],
+    "learnset": [
+      {
+        "level": 12,
+        "name": "Bite"
+      },
+      {
+        "level": 17,
+        "name": "Pay Day"
+      },
+      {
+        "level": 24,
+        "name": "Screech"
+      },
+      {
+        "level": 37,
+        "name": "Fury Swipes"
+      },
+      {
+        "level": 51,
+        "name": "Slash"
+      }
+    ]
+  },
+  {
+    "name": "Marowak",
+    "health": 60,
+    "attack": 80,
+    "defense": 110,
+    "speed": 45,
+    "special": 50,
+    "type1": "ground",
+    "type2": "ground",
+    "starting_moves": [
+      "Bone Club",
+      "Growl",
+      "Leer",
+      "Focus Energy"
+    ],
+    "learnset": [
+      {
+        "level": 25,
+        "name": "Leer"
+      },
+      {
+        "level": 33,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 41,
+        "name": "Thrash"
+      },
+      {
+        "level": 48,
+        "name": "Bonemerang"
+      },
+      {
+        "level": 55,
+        "name": "Rage"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Haunter",
+    "health": 45,
+    "attack": 50,
+    "defense": 45,
+    "speed": 95,
+    "special": 115,
+    "type1": "ghost",
+    "type2": "poison",
+    "starting_moves": [
+      "Lick",
+      "Confuse Ray",
+      "Night Shade",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 29,
+        "name": "Hypnosis"
+      },
+      {
+        "level": 38,
+        "name": "Dream Eater"
+      }
+    ]
+  },
+  {
+    "name": "Abra",
+    "health": 25,
+    "attack": 20,
+    "defense": 15,
+    "speed": 90,
+    "special": 105,
+    "type1": "psychic",
+    "type2": "psychic",
+    "starting_moves": [
+      "Teleport",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Alakazam",
+    "health": 55,
+    "attack": 50,
+    "defense": 45,
+    "speed": 120,
+    "special": 135,
+    "type1": "psychic",
+    "type2": "psychic",
+    "starting_moves": [
+      "Teleport",
+      "Confusion",
+      "Disable",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 16,
+        "name": "Confusion"
+      },
+      {
+        "level": 20,
+        "name": "Disable"
+      },
+      {
+        "level": 27,
+        "name": "Psybeam"
+      },
+      {
+        "level": 31,
+        "name": "Recover"
+      },
+      {
+        "level": 38,
+        "name": "Psychic M"
+      },
+      {
+        "level": 42,
+        "name": "Reflect"
+      }
+    ]
+  },
+  {
+    "name": "Pidgeotto",
+    "health": 63,
+    "attack": 60,
+    "defense": 55,
+    "speed": 71,
+    "special": 50,
+    "type1": "normal",
+    "type2": "flying",
+    "starting_moves": [
+      "Gust",
+      "Sand Attack",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "name": "Sand Attack"
+      },
+      {
+        "level": 12,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 21,
+        "name": "Whirlwind"
+      },
+      {
+        "level": 31,
+        "name": "Wing Attack"
+      },
+      {
+        "level": 40,
+        "name": "Agility"
+      },
+      {
+        "level": 49,
+        "name": "Mirror Move"
+      }
+    ]
+  },
+  {
+    "name": "Pidgeot",
+    "health": 83,
+    "attack": 80,
+    "defense": 75,
+    "speed": 91,
+    "special": 70,
+    "type1": "normal",
+    "type2": "flying",
+    "starting_moves": [
+      "Gust",
+      "Sand Attack",
+      "Quick Attack",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "name": "Sand Attack"
+      },
+      {
+        "level": 12,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 21,
+        "name": "Whirlwind"
+      },
+      {
+        "level": 31,
+        "name": "Wing Attack"
+      },
+      {
+        "level": 44,
+        "name": "Agility"
+      },
+      {
+        "level": 54,
+        "name": "Mirror Move"
+      }
+    ]
+  },
+  {
+    "name": "Starmie",
+    "health": 60,
+    "attack": 75,
+    "defense": 85,
+    "speed": 115,
+    "special": 100,
+    "type1": "water",
+    "type2": "psychic",
+    "starting_moves": [
+      "Tackle",
+      "Water Gun",
+      "Harden",
+      "No Move"
+    ],
+    "learnset": []
+  },
+  {
+    "name": "Bulbasaur",
+    "health": 45,
+    "attack": 49,
+    "defense": 49,
+    "speed": 45,
+    "special": 65,
+    "type1": "grass",
+    "type2": "poison",
+    "starting_moves": [
+      "Tackle",
+      "Growl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "name": "Leech Seed"
+      },
+      {
+        "level": 13,
+        "name": "Vine Whip"
+      },
+      {
+        "level": 20,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 27,
+        "name": "Razor Leaf"
+      },
+      {
+        "level": 34,
+        "name": "Growth"
+      },
+      {
+        "level": 41,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 48,
+        "name": "Solarbeam"
+      }
+    ]
+  },
+  {
+    "name": "Venusaur",
+    "health": 80,
+    "attack": 82,
+    "defense": 83,
+    "speed": 80,
+    "special": 100,
+    "type1": "grass",
+    "type2": "poison",
+    "starting_moves": [
+      "Tackle",
+      "Growl",
+      "Leech Seed",
+      "Vine Whip"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "name": "Leech Seed"
+      },
+      {
+        "level": 13,
+        "name": "Vine Whip"
+      },
+      {
+        "level": 22,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 30,
+        "name": "Razor Leaf"
+      },
+      {
+        "level": 43,
+        "name": "Growth"
+      },
+      {
+        "level": 55,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 65,
+        "name": "Solarbeam"
+      }
+    ]
+  },
+  {
+    "name": "Tentacruel",
+    "health": 80,
+    "attack": 70,
+    "defense": 65,
+    "speed": 100,
+    "special": 120,
+    "type1": "water",
+    "type2": "poison",
+    "starting_moves": [
+      "Acid",
+      "Supersonic",
+      "Wrap",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "name": "Supersonic"
+      },
+      {
+        "level": 13,
+        "name": "Wrap"
+      },
+      {
+        "level": 18,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 22,
+        "name": "Water Gun"
+      },
+      {
+        "level": 27,
+        "name": "Constrict"
+      },
+      {
+        "level": 35,
+        "name": "Barrier"
+      },
+      {
+        "level": 43,
+        "name": "Screech"
+      },
+      {
+        "level": 50,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Goldeen",
+    "health": 45,
+    "attack": 67,
+    "defense": 60,
+    "speed": 63,
+    "special": 50,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Peck",
+      "Tail Whip",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 19,
+        "name": "Supersonic"
+      },
+      {
+        "level": 24,
+        "name": "Horn Attack"
+      },
+      {
+        "level": 30,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 37,
+        "name": "Waterfall"
+      },
+      {
+        "level": 45,
+        "name": "Horn Drill"
+      },
+      {
+        "level": 54,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "Seaking",
+    "health": 80,
+    "attack": 92,
+    "defense": 65,
+    "speed": 68,
+    "special": 80,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Peck",
+      "Tail Whip",
+      "Supersonic",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 19,
+        "name": "Supersonic"
+      },
+      {
+        "level": 24,
+        "name": "Horn Attack"
+      },
+      {
+        "level": 30,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 39,
+        "name": "Waterfall"
+      },
+      {
+        "level": 48,
+        "name": "Horn Drill"
+      },
+      {
+        "level": 54,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Ponyta",
+    "health": 50,
+    "attack": 85,
+    "defense": 55,
+    "speed": 90,
+    "special": 65,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Ember",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 30,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 32,
+        "name": "Stomp"
+      },
+      {
+        "level": 35,
+        "name": "Growl"
+      },
+      {
+        "level": 39,
+        "name": "Fire Spin"
+      },
+      {
+        "level": 43,
+        "name": "Take Down"
+      },
+      {
+        "level": 48,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "Rapidash",
+    "health": 65,
+    "attack": 100,
+    "defense": 70,
+    "speed": 105,
+    "special": 80,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Ember",
+      "Tail Whip",
+      "Stomp",
+      "Growl"
+    ],
+    "learnset": [
+      {
+        "level": 30,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 32,
+        "name": "Stomp"
+      },
+      {
+        "level": 35,
+        "name": "Growl"
+      },
+      {
+        "level": 39,
+        "name": "Fire Spin"
+      },
+      {
+        "level": 47,
+        "name": "Take Down"
+      },
+      {
+        "level": 55,
+        "name": "Agility"
+      }
+    ]
+  },
+  {
+    "name": "Rattata",
+    "health": 30,
+    "attack": 56,
+    "defense": 35,
+    "speed": 72,
+    "special": 25,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Tackle",
+      "Tail Whip",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 14,
+        "name": "Hyper Fang"
+      },
+      {
+        "level": 23,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 34,
+        "name": "Super Fang"
+      }
+    ]
+  },
+  {
+    "name": "Raticate",
+    "health": 55,
+    "attack": 81,
+    "defense": 60,
+    "speed": 97,
+    "special": 50,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Tackle",
+      "Tail Whip",
+      "Quick Attack",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "name": "Quick Attack"
+      },
+      {
+        "level": 14,
+        "name": "Hyper Fang"
+      },
+      {
+        "level": 27,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 41,
+        "name": "Super Fang"
+      }
+    ]
+  },
+  {
+    "name": "Nidorino",
+    "health": 61,
+    "attack": 72,
+    "defense": 57,
+    "speed": 65,
+    "special": 55,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Leer",
+      "Tackle",
+      "Horn Attack",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 8,
+        "name": "Horn Attack"
+      },
+      {
+        "level": 14,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 23,
+        "name": "Focus Energy"
+      },
+      {
+        "level": 32,
+        "name": "Fury Attack"
+      },
+      {
+        "level": 41,
+        "name": "Horn Drill"
+      },
+      {
+        "level": 50,
+        "name": "Double Kick"
+      }
+    ]
+  },
+  {
+    "name": "Nidorina",
+    "health": 70,
+    "attack": 62,
+    "defense": 67,
+    "speed": 56,
+    "special": 55,
+    "type1": "poison",
+    "type2": "poison",
+    "starting_moves": [
+      "Growl",
+      "Tackle",
+      "Scratch",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 8,
+        "name": "Scratch"
+      },
+      {
+        "level": 14,
+        "name": "Poison Sting"
+      },
+      {
+        "level": 23,
+        "name": "Tail Whip"
+      },
+      {
+        "level": 32,
+        "name": "Bite"
+      },
+      {
+        "level": 41,
+        "name": "Fury Swipes"
+      },
+      {
+        "level": 50,
+        "name": "Double Kick"
+      }
+    ]
+  },
+  {
+    "name": "Geodude",
+    "health": 40,
+    "attack": 80,
+    "defense": 100,
+    "speed": 20,
+    "special": 30,
+    "type1": "rock",
+    "type2": "ground",
+    "starting_moves": [
+      "Tackle",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 11,
+        "name": "Defense Curl"
+      },
+      {
+        "level": 16,
+        "name": "Rock Throw"
+      },
+      {
+        "level": 21,
+        "name": "Selfdestruct"
+      },
+      {
+        "level": 26,
+        "name": "Harden"
+      },
+      {
+        "level": 31,
+        "name": "Earthquake"
+      },
+      {
+        "level": 36,
+        "name": "Explosion"
+      }
+    ]
+  },
+  {
+    "name": "Porygon",
+    "health": 65,
+    "attack": 60,
+    "defense": 70,
+    "speed": 40,
+    "special": 75,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [
+      "Tackle",
+      "Sharpen",
+      "Conversion",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 23,
+        "name": "Psybeam"
+      },
+      {
+        "level": 28,
+        "name": "Recover"
+      },
+      {
+        "level": 35,
+        "name": "Agility"
+      },
+      {
+        "level": 42,
+        "name": "Tri Attack"
+      }
+    ]
+  },
+  {
+    "name": "Aerodactyl",
+    "health": 80,
+    "attack": 105,
+    "defense": 65,
+    "speed": 130,
+    "special": 60,
+    "type1": "rock",
+    "type2": "flying",
+    "starting_moves": [
+      "Wing Attack",
+      "Agility",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 33,
+        "name": "Supersonic"
+      },
+      {
+        "level": 38,
+        "name": "Bite"
+      },
+      {
+        "level": 45,
+        "name": "Take Down"
+      },
+      {
+        "level": 54,
+        "name": "Hyper Beam"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Magnemite",
+    "health": 25,
+    "attack": 35,
+    "defense": 70,
+    "speed": 45,
+    "special": 95,
+    "type1": "electric",
+    "type2": "electric",
+    "starting_moves": [
+      "Tackle",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 21,
+        "name": "Sonicboom"
+      },
+      {
+        "level": 25,
+        "name": "Thundershock"
+      },
+      {
+        "level": 29,
+        "name": "Supersonic"
+      },
+      {
+        "level": 35,
+        "name": "Thunder Wave"
+      },
+      {
+        "level": 41,
+        "name": "Swift"
+      },
+      {
+        "level": 47,
+        "name": "Screech"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Charmander",
+    "health": 39,
+    "attack": 52,
+    "defense": 43,
+    "speed": 65,
+    "special": 50,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Scratch",
+      "Growl",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 9,
+        "name": "Ember"
+      },
+      {
+        "level": 15,
+        "name": "Leer"
+      },
+      {
+        "level": 22,
+        "name": "Rage"
+      },
+      {
+        "level": 30,
+        "name": "Slash"
+      },
+      {
+        "level": 38,
+        "name": "Flamethrower"
+      },
+      {
+        "level": 46,
+        "name": "Fire Spin"
+      }
+    ]
+  },
+  {
+    "name": "Squirtle",
+    "health": 44,
+    "attack": 48,
+    "defense": 65,
+    "speed": 43,
+    "special": 50,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Tackle",
+      "Tail Whip",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 8,
+        "name": "Bubble"
+      },
+      {
+        "level": 15,
+        "name": "Water Gun"
+      },
+      {
+        "level": 22,
+        "name": "Bite"
+      },
+      {
+        "level": 28,
+        "name": "Withdraw"
+      },
+      {
+        "level": 35,
+        "name": "Skull Bash"
+      },
+      {
+        "level": 42,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Charmeleon",
+    "health": 58,
+    "attack": 64,
+    "defense": 58,
+    "speed": 80,
+    "special": 65,
+    "type1": "fire",
+    "type2": "fire",
+    "starting_moves": [
+      "Scratch",
+      "Growl",
+      "Ember",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 9,
+        "name": "Ember"
+      },
+      {
+        "level": 15,
+        "name": "Leer"
+      },
+      {
+        "level": 24,
+        "name": "Rage"
+      },
+      {
+        "level": 33,
+        "name": "Slash"
+      },
+      {
+        "level": 42,
+        "name": "Flamethrower"
+      },
+      {
+        "level": 56,
+        "name": "Fire Spin"
+      }
+    ]
+  },
+  {
+    "name": "Wartortle",
+    "health": 59,
+    "attack": 63,
+    "defense": 80,
+    "speed": 58,
+    "special": 65,
+    "type1": "water",
+    "type2": "water",
+    "starting_moves": [
+      "Tackle",
+      "Tail Whip",
+      "Bubble",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 8,
+        "name": "Bubble"
+      },
+      {
+        "level": 15,
+        "name": "Water Gun"
+      },
+      {
+        "level": 24,
+        "name": "Bite"
+      },
+      {
+        "level": 31,
+        "name": "Withdraw"
+      },
+      {
+        "level": 39,
+        "name": "Skull Bash"
+      },
+      {
+        "level": 47,
+        "name": "Hydro Pump"
+      }
+    ]
+  },
+  {
+    "name": "Charizard",
+    "health": 78,
+    "attack": 84,
+    "defense": 78,
+    "speed": 100,
+    "special": 85,
+    "type1": "fire",
+    "type2": "flying",
+    "starting_moves": [
+      "Scratch",
+      "Growl",
+      "Ember",
+      "Leer"
+    ],
+    "learnset": [
+      {
+        "level": 9,
+        "name": "Ember"
+      },
+      {
+        "level": 15,
+        "name": "Leer"
+      },
+      {
+        "level": 24,
+        "name": "Rage"
+      },
+      {
+        "level": 36,
+        "name": "Slash"
+      },
+      {
+        "level": 46,
+        "name": "Flamethrower"
+      },
+      {
+        "level": 55,
+        "name": "Fire Spin"
+      }
+    ]
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "MissingNo",
+    "health": 33,
+    "attack": 136,
+    "defense": 0,
+    "speed": 29,
+    "special": 6,
+    "type1": "normal",
+    "type2": "normal",
+    "starting_moves": [],
+    "learnset": []
+  },
+  {
+    "name": "Oddish",
+    "health": 45,
+    "attack": 50,
+    "defense": 55,
+    "speed": 30,
+    "special": 75,
+    "type1": "grass",
+    "type2": "poison",
+    "starting_moves": [
+      "Absorb",
+      "No Move",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 17,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 19,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 24,
+        "name": "Acid"
+      },
+      {
+        "level": 33,
+        "name": "Petal Dance"
+      },
+      {
+        "level": 46,
+        "name": "Solarbeam"
+      }
+    ]
+  },
+  {
+    "name": "Gloom",
+    "health": 60,
+    "attack": 65,
+    "defense": 70,
+    "speed": 40,
+    "special": 85,
+    "type1": "grass",
+    "type2": "poison",
+    "starting_moves": [
+      "Absorb",
+      "Poisonpowder",
+      "Stun Spore",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 17,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 19,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 28,
+        "name": "Acid"
+      },
+      {
+        "level": 38,
+        "name": "Petal Dance"
+      },
+      {
+        "level": 52,
+        "name": "Solarbeam"
+      }
+    ]
+  },
+  {
+    "name": "Vileplume",
+    "health": 75,
+    "attack": 80,
+    "defense": 85,
+    "speed": 50,
+    "special": 100,
+    "type1": "grass",
+    "type2": "poison",
+    "starting_moves": [
+      "Stun Spore",
+      "Sleep Powder",
+      "Acid",
+      "Petal Dance"
+    ],
+    "learnset": [
+      {
+        "level": 15,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 17,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 19,
+        "name": "Sleep Powder"
+      }
+    ]
+  },
+  {
+    "name": "Bellsprout",
+    "health": 50,
+    "attack": 75,
+    "defense": 35,
+    "speed": 40,
+    "special": 70,
+    "type1": "grass",
+    "type2": "poison",
+    "starting_moves": [
+      "Vine Whip",
+      "Growth",
+      "No Move",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 13,
+        "name": "Wrap"
+      },
+      {
+        "level": 15,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 18,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 21,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 26,
+        "name": "Acid"
+      },
+      {
+        "level": 33,
+        "name": "Razor Leaf"
+      },
+      {
+        "level": 42,
+        "name": "Slam"
+      }
+    ]
+  },
+  {
+    "name": "Weepinbell",
+    "health": 65,
+    "attack": 90,
+    "defense": 50,
+    "speed": 55,
+    "special": 85,
+    "type1": "grass",
+    "type2": "poison",
+    "starting_moves": [
+      "Vine Whip",
+      "Growth",
+      "Wrap",
+      "No Move"
+    ],
+    "learnset": [
+      {
+        "level": 13,
+        "name": "Wrap"
+      },
+      {
+        "level": 15,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 18,
+        "name": "Sleep Powder"
+      },
+      {
+        "level": 23,
+        "name": "Stun Spore"
+      },
+      {
+        "level": 29,
+        "name": "Acid"
+      },
+      {
+        "level": 38,
+        "name": "Razor Leaf"
+      },
+      {
+        "level": 49,
+        "name": "Slam"
+      }
+    ]
+  },
+  {
+    "name": "Victreebel",
+    "health": 80,
+    "attack": 105,
+    "defense": 65,
+    "speed": 70,
+    "special": 100,
+    "type1": "grass",
+    "type2": "poison",
+    "starting_moves": [
+      "Sleep Powder",
+      "Stun Spore",
+      "Acid",
+      "Razor Leaf"
+    ],
+    "learnset": [
+      {
+        "level": 13,
+        "name": "Wrap"
+      },
+      {
+        "level": 15,
+        "name": "Poisonpowder"
+      },
+      {
+        "level": 18,
+        "name": "Sleep Powder"
+      }
+    ]
+  }
+]

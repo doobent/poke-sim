@@ -1,8 +1,12 @@
 [package]
 name = "poke-sim"
-author = "doobent"
+authors = ["doobent"]
 version = "0.1.0"
 edition = "2018"
+description = "Simple pokemon battle simulator for wasm"
+readme = "README.md"
+repository = "https://github.com/doobent/poke-sim"
+license = "MIT OR Apache-2.0"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
