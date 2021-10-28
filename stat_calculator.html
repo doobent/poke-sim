@@ -5,47 +5,76 @@
 </head>
 <body>
 
-<h1>Choose pokemon:</h1>
+<h1 class="text-center">Calculate Pokemon Stats</h1>
 
-<div id="pokemon-base-stats">
-    <input list="pokemon-selection" id="pokemon-input" name="pokemon-selection" />
-    <datalist id="pokemon-selection">
-        <option value="Custom">
-    </datalist>
+<div id="pokemon-base-stats" class="container">
+    <h3>Pokemon Base Stats:</h3>
+    <select id="pokemon-selection" name="pokemon-selection" />
+        <option value="Custom">Custom</option>
+    </select>
 
     <label for="pokemon-level">Level:</label>
     <input type="number" min="2" max="100" id="pokemon-level" value="50" />
+
+    <h3>Pokemon Base Stats:</h3>
+    <label for="base-health" class="form-label">Health:</label>
+    <input type="number" min="0" max="15" id="base-health" value="0" class="col-sm-1" disabled readonly />
+    <label for="base-attack" class="form-label">Attack:</label>
+    <input type="number" min="0" max="15" id="base-attack" value="0" class="col-sm-1" disabled readonly />
+    <label for="base-defense" class="form-label">Defense:</label>
+    <input type="number" min="0" max="15" id="base-defense" value="0" class="col-sm-1" disabled readonly />
+    <label for="base-speed" class="form-label">Speed:</label>
+    <input type="number" min="0" max="15" id="base-speed" value="0" class="col-sm-1" disabled readonly />
+    <label for="base-special" class="form-label">Special:</label>
+    <input type="number" min="0" max="15" id="base-special" value="0" class="col-sm-1" disabled readonly />
 </div>
 <div id="pokemon-dvs" class="container">
     <h3>Pokemon DVs:</h3>
-    <label for="dv-health">Health:</label>
-    <input type="number" min="0" max="15" id="dv-health" value="0" readonly title="In gen 1, health DV is calculated from the other 4 DVs" />
-    <label for="dv-attack">Attack:</label>
-    <input type="number" min="0" max="15" id="dv-attack" value="0" />
-    <label for="dv-defense">Defense:</label>
-    <input type="number" min="0" max="15" id="dv-defense" value="0" />
-    <label for="dv-speed">Speed:</label>
-    <input type="number" min="0" max="15" id="dv-speed" value="0" />
-    <label for="dv-special">Special:</label>
-    <input type="number" min="0" max="15" id="dv-special" value="0" />
+    <label for="dv-health" class="form-label">Health:</label>
+    <input type="number" min="0" max="15" id="dv-health" value="0" class="col-sm-1" disabled readonly title="In gen 1, health DV is calculated from the other 4 DVs" />
+    <label for="dv-attack" class="form-label">Attack:</label>
+    <input type="number" min="0" max="15" id="dv-attack" value="0" class="col-sm-1" />
+    <label for="dv-defense" class="form-label">Defense:</label>
+    <input type="number" min="0" max="15" id="dv-defense" value="0" class="col-sm-1" />
+    <label for="dv-speed" class="form-label">Speed:</label>
+    <input type="number" min="0" max="15" id="dv-speed" value="0" class="col-sm-1" />
+    <label for="dv-special" class="form-label">Special:</label>
+    <input type="number" min="0" max="15" id="dv-special" value="0" class="col-sm-1" />
 </div>
 <div id="pokemon-stat-exp" class="container">
     <h3>Pokemon Stat Experience:</h3>
     <label for="statexp-health">Health:</label>
-    <input type="number" min="0" max="65535" id="statexp-health" value="0" />
+    <input type="number" min="0" max="65535" id="statexp-health" value="0" class="col-sm-1" />
     <label for="statexp-attack">Attack:</label>
-    <input type="number" min="0" max="65535" id="statexp-attack" value="0" />
+    <input type="number" min="0" max="65535" id="statexp-attack" value="0" class="col-sm-1" />
     <label for="statexp-defense">Defense:</label>
-    <input type="number" min="0" max="65535" id="statexp-defense" value="0" />
+    <input type="number" min="0" max="65535" id="statexp-defense" value="0" class="col-sm-1" />
     <label for="statexp-speed">Speed:</label>
-    <input type="number" min="0" max="65535" id="statexp-speed" value="0" />
+    <input type="number" min="0" max="65535" id="statexp-speed" value="0" class="col-sm-1" />
     <label for="statexp-special">Special:</label>
-    <input type="number" min="0" max="65535" id="statexp-special" value="0" />
+    <input type="number" min="0" max="65535" id="statexp-special" value="0" class="col-sm-1" />
 </div>
 
-<button type="button" class="btn btn-primary" id="calc-stats">
-    Calculate stats
-</button>
+<div id="pokemon-calced-stats" class="container">
+
+    <button type="button" class="btn btn-primary text-center" id="calc-stats">
+        Calculate stats
+    </button>
+
+    <h3>Pokemon Stats:</h3>
+    <label for="stats-health">Health:</label>
+    <input type="number" min="0" max="999" id="stats-health" value="0" class="col-sm-1" disabled readonly />
+    <label for="stats-attack">Attack:</label>
+    <input type="number" min="0" max="999" id="stats-attack" value="0" class="col-sm-1" disabled readonly  />
+    <label for="stats-defense">Defense:</label>
+    <input type="number" min="0" max="999" id="stats-defense" value="0" class="col-sm-1" disabled readonly  />
+    <label for="stats-speed">Speed:</label>
+    <input type="number" min="0" max="999" id="stats-speed" value="0" class="col-sm-1" disabled readonly  />
+    <label for="stats-special">Special:</label>
+    <input type="number" min="0" max="999" id="stats-special" value="0" class="col-sm-1" disabled readonly  />
+</div>
+
+
 
 <script type="module">
 import init, { get_stats } from "./pkg/poke_sim.js";
@@ -62,12 +91,50 @@ function setup() {
     document.querySelector("#calc-stats").addEventListener("click", () => {
         calc();
     });
+
+    document.querySelector("#pokemon-selection").addEventListener("change", (e) => {
+        let stats = pokemonStats[e.target.value];
+
+        document.querySelector("#base-health").value = stats.health;
+        document.querySelector("#base-attack").value = stats.attack;
+        document.querySelector("#base-defense").value = stats.defense;
+        document.querySelector("#base-speed").value = stats.speed;
+        document.querySelector("#base-special").value = stats.special;
+    });
+
+    document.querySelector("#dv-attack").addEventListener("input", calcHealthDV);
+    document.querySelector("#dv-defense").addEventListener("input", calcHealthDV);
+    document.querySelector("#dv-speed").addEventListener("input", calcHealthDV);
+    document.querySelector("#dv-special").addEventListener("input", calcHealthDV);
+}
+
+function calcHealthDV() {
+    let attack = parseInt(document.querySelector("#dv-attack").value);
+    let defense = parseInt(document.querySelector("#dv-defense").value);
+    let speed = parseInt(document.querySelector("#dv-speed").value);
+    let special = parseInt(document.querySelector("#dv-special").value);
+
+    let healthDV =  ((attack & 1) << 3) +
+                    ((defense & 1) << 2) +
+                    ((speed & 1 ) << 1) +
+                    (special & 1);
+    document.querySelector("#dv-health").value = healthDV;
 }
 
 async function run() {
     await init();
 
     loadedWASM = true;
+}
+
+function loadLoreleiDewgong() {
+    document.querySelector("#pokemon-selection").value = "Dewgong";
+    document.querySelector("#pokemon-level").value = 54;
+    document.querySelector("#dv-attack").value = 9;
+    document.querySelector("#dv-defense").value = 8;
+    document.querySelector("#dv-speed").value = 8;
+    document.querySelector("#dv-special").value = 8;
+    calcHealthDV();
 }
 
 async function loadPokemon() {
@@ -79,6 +146,7 @@ async function loadPokemon() {
         if (value.name != "MissingNo") {
             let option = document.createElement("option");
             option.value = value.name;
+            option.innerHTML = value.name;
 
             pokemonStats[value.name] = {
                 health: value.health,
@@ -90,12 +158,15 @@ async function loadPokemon() {
             poke_selection.appendChild(option);
         }
     }
+
+    loadedPokemon = true;
+    loadLoreleiDewgong();
 }
 
 function calc() {
     let level = parseInt(document.querySelector("#pokemon-level").value);
 
-    let base_stats = pokemonStats[document.querySelector("#pokemon-input").value];
+    let base_stats = pokemonStats[document.querySelector("#pokemon-selection").value];
 
     let dv_attack = parseInt(document.querySelector("#dv-attack").value);
     let dv_defense = parseInt(document.querySelector("#dv-defense").value);
@@ -108,15 +179,15 @@ function calc() {
     let statexp_speed = parseInt(document.querySelector("#statexp-speed").value);
     let statexp_special = parseInt(document.querySelector("#statexp-special").value);
 
-    console.log(base_stats.health, base_stats.attack, base_stats.defense, base_stats.speed, base_stats.special,
-        dv_attack, dv_defense, dv_speed, dv_special,
-        statexp_health, statexp_attack, statexp_defense, statexp_speed, statexp_special, level)
-
     let stats = get_stats(base_stats.health, base_stats.attack, base_stats.defense, base_stats.speed, base_stats.special,
         dv_attack, dv_defense, dv_speed, dv_special,
         statexp_health, statexp_attack, statexp_defense, statexp_speed, statexp_special, level);
 
-    console.log(stats);
+    document.querySelector("#stats-health").value = stats.health;
+    document.querySelector("#stats-attack").value = stats.attack;
+    document.querySelector("#stats-defense").value = stats.defense;
+    document.querySelector("#stats-speed").value = stats.speed;
+    document.querySelector("#stats-special").value = stats.special;
 
 }
 
