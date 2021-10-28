@@ -6,6 +6,7 @@ use wasm_bindgen::prelude::*;
 use crate::pokemon::BasePokemon;
 
 mod pokemon;
+mod stats;
 
 #[cfg(target_arch = "wasm32")]
 mod wasm_load;

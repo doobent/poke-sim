@@ -12,6 +12,9 @@
     <datalist id="pokemon-selection">
         <option value="Custom">
     </datalist>
+
+    <label for="pokemon-level">Level:</label>
+    <input type="number" min="2" max="100" id="pokemon-level" value="50" />
 </div>
 <div id="pokemon-dvs" class="container">
     <h3>Pokemon DVs:</h3>
@@ -40,17 +43,84 @@
     <input type="number" min="0" max="65535" id="statexp-special" value="0" />
 </div>
 
-<button type="button" class="btn btn-primary">
+<button type="button" class="btn btn-primary" id="calc-stats">
     Calculate stats
 </button>
 
 <script type="module">
+import init, { get_stats } from "./pkg/poke_sim.js";
 
-document.querySelector("")
+var loadedWASM = false;
+var loadedPokemon = false;
 
-document.querySelector("#pokemon-input").addEventListener("change", (e) => {
-    console.log(e);
-});
+var pokemonStats = {};
+
+function setup() {
+    run();
+    loadPokemon();
+
+    document.querySelector("#calc-stats").addEventListener("click", () => {
+        calc();
+    });
+}
+
+async function run() {
+    await init();
+
+    loadedWASM = true;
+}
+
+async function loadPokemon() {
+    let pokes_raw = await fetch("./data/pokemon.json");
+    let pokes_data = await pokes_raw.json();
+
+    let poke_selection = document.querySelector("#pokemon-selection");
+    for (let value of pokes_data) {
+        if (value.name != "MissingNo") {
+            let option = document.createElement("option");
+            option.value = value.name;
+
+            pokemonStats[value.name] = {
+                health: value.health,
+                attack: value.attack,
+                defense: value.defense,
+                speed: value.speed,
+                special: value.special,
+            };
+            poke_selection.appendChild(option);
+        }
+    }
+}
+
+function calc() {
+    let level = parseInt(document.querySelector("#pokemon-level").value);
+
+    let base_stats = pokemonStats[document.querySelector("#pokemon-input").value];
+
+    let dv_attack = parseInt(document.querySelector("#dv-attack").value);
+    let dv_defense = parseInt(document.querySelector("#dv-defense").value);
+    let dv_speed = parseInt(document.querySelector("#dv-speed").value);
+    let dv_special = parseInt(document.querySelector("#dv-special").value);
+
+    let statexp_health = parseInt(document.querySelector("#statexp-health").value);
+    let statexp_attack = parseInt(document.querySelector("#statexp-attack").value);
+    let statexp_defense = parseInt(document.querySelector("#statexp-defense").value);
+    let statexp_speed = parseInt(document.querySelector("#statexp-speed").value);
+    let statexp_special = parseInt(document.querySelector("#statexp-special").value);
+
+    console.log(base_stats.health, base_stats.attack, base_stats.defense, base_stats.speed, base_stats.special,
+        dv_attack, dv_defense, dv_speed, dv_special,
+        statexp_health, statexp_attack, statexp_defense, statexp_speed, statexp_special, level)
+
+    let stats = get_stats(base_stats.health, base_stats.attack, base_stats.defense, base_stats.speed, base_stats.special,
+        dv_attack, dv_defense, dv_speed, dv_special,
+        statexp_health, statexp_attack, statexp_defense, statexp_speed, statexp_special, level);
+
+    console.log(stats);
+
+}
+
+setup();
 
 </script>
 
