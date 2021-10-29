@@ -189,7 +189,20 @@ async function loadPokemon() {
 function calc() {
     let level = parseInt(document.querySelector("#pokemon-level").value);
 
-    let base_stats = pokemonStats[document.querySelector("#pokemon-selection").value];
+
+    let pokemonName = document.querySelector("#pokemon-selection").value;
+    let base_stats;
+    if (pokemonName == "Custom") {
+        base_stats = {
+            health: parseInt(document.querySelector("#base-health").value),
+            attack: parseInt(document.querySelector("#base-attack").value),
+            defense: parseInt(document.querySelector("#base-defense").value),
+            speed: parseInt(document.querySelector("#base-speed").value),
+            special: parseInt(document.querySelector("#base-special").value),
+        };
+    } else {
+        base_stats = pokemonStats[pokemonName];
+    }
 
     let dv_attack = parseInt(document.querySelector("#dv-attack").value);
     let dv_defense = parseInt(document.querySelector("#dv-defense").value);
