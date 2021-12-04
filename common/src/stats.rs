@@ -80,6 +80,7 @@ impl PokemonBaseStats {
 }
 
 /// Stats for pokemon, used for stat(between 1 and 999) and stat exp(between 0 and 65535)
+#[derive(serde::Deserialize)]
 #[derive(Debug, Clone, Copy, Default)]
 pub struct PokemonStats {
     pub health: u16,
@@ -104,6 +105,7 @@ impl PokemonStats {
 /// Determinant values(also known as individual values) of a pokemon
 /// Health DV is calculated from the others, so not stored here
 /// TODO: change default to random dvs?(0-15)
+#[derive(serde::Deserialize)]
 #[derive(Debug, Clone, Copy, Default)]
 pub struct PokemonDVs {
     pub attack: u8,

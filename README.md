@@ -8,6 +8,12 @@ Install required stuff first :)
 
 Run
 ```
-wasm-pack build --target web
+wasm-pack build wasm --target web --out-dir ../pkg
 ```
 to compile the WebAssembly
+
+Run 
+```
+cargo run -- --mode stat --input input/staryu.json
+``` 
+to run the command line application

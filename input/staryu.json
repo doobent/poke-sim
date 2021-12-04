@@ -1,0 +1,17 @@
+{
+    "pokemon_name": "Staryu",
+    "level": 36,
+    "dvs": {
+        "attack": 8,
+        "defense": 10,
+        "speed": 15,
+        "special": 3
+    },
+    "stat_exp": {
+        "health": 5000,
+        "attack": 10000,
+        "defense": 8000,
+        "speed": 7000,
+        "special": 10000
+    }
+}

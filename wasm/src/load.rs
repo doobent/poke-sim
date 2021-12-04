@@ -1,16 +1,16 @@
 use wasm_bindgen::prelude::*;
 
 use js_sys::*;
-use crate::wasm_misc::log::*;
-use crate::pokemon::Type;
-use crate::stats::PokemonBaseStats;
-use crate::stats::PokemonDVs;
-use crate::stats::PokemonStats;
-use crate::stats::calc_stats;
+use crate::misc::log::*;
+use common::pokemon::Type;
+use common::stats::PokemonBaseStats;
+use common::stats::PokemonDVs;
+use common::stats::PokemonStats;
+use common::stats::calc_stats;
 
 use serde::{Serialize, Deserialize};
 
-use crate::BasePokemon;
+use common::pokemon::BasePokemon;
 
 const HEALTH_STR: &str = "health";
 const ATTACK_STR: &str = "attack";
@@ -20,7 +20,6 @@ const SPECIAL_STR: &str = "special";
 
 #[wasm_bindgen]
 pub fn load_pokemon(pokemon_array: Array) {
-    console_log!("{:?}", pokemon_array.get(1));
 
     //let vec = Vec::with_capacity(pokemon_array.length().try_into().unwrap());
 
@@ -31,7 +30,7 @@ pub fn load_pokemon(pokemon_array: Array) {
     let type1 = Type::from_str(&data.type1);
     let type2 = Type::from_str(&data.type2);
 
-    let base_poke = BasePokemon::new(1, data.health, data.attack,
+    let base_poke = BasePokemon::new(1, data.name, data.health, data.attack,
         data.defense, data.speed, data.special, 
         type1, type2);
 

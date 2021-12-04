@@ -1,8 +1,8 @@
 
-use crate::stats::PokemonStats;
-use crate::stats::PokemonBaseStats;
-use crate::stats::PokemonDVs;
-use crate::stats::calc_stats;
+use super::stats::PokemonStats;
+use super::stats::PokemonBaseStats;
+use super::stats::PokemonDVs;
+use super::stats::calc_stats;
 
 pub type Party = [Option<Pokemon>; 6];
 
@@ -38,7 +38,7 @@ struct BattleStatus {
 }
 
 /// This is general 
-#[derive(Debug, Clone, Copy, Default)]
+#[derive(Debug, Clone, Default)]
 pub struct Pokemon {
     stats: Option<PokemonStats>,
     level: u8,
@@ -55,22 +55,24 @@ impl Pokemon {
 }
 
 /// Base info for each pokemon
-#[derive(Debug, Clone, Copy, Default)]
+#[derive(Debug, Clone, Default)]
 pub struct BasePokemon {
     index: u8,
+    name: String,
     base_stats: PokemonBaseStats,
     type1: Type,
     type2: Type,
 }
 
 impl BasePokemon {
-    pub fn new(index: u8, health: u8, attack: u8,
+    pub fn new(index: u8, name: String, health: u8, attack: u8,
         defense: u8, speed: u8, special: u8, 
         type1: Type, type2: Type) -> BasePokemon {
 
         let base_stats = PokemonBaseStats::new(health, attack, defense, speed, special);
         BasePokemon {
             index,
+            name,
             base_stats,
             type1,
             type2,
