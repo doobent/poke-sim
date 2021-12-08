@@ -6,37 +6,6 @@ use super::stats::calc_stats;
 
 pub type Party = [Option<Pokemon>; 6];
 
-/// Pokemon in battle, stores their status and which pokemon they are
-struct BattlePokemon {
-    statuses: BattleStatus,
-    pokemon: Pokemon,
-}
-
-
-/// Temporary statuses for in battle
-#[derive(Debug, Clone, Copy, Default)]
-struct BattleStatus {
-    bide: bool, //
-    thrash: bool, //also petal dance
-    multi_attack: bool, //fury swipes
-    flinch: bool,
-    charging: bool, //like solarbeam
-    multi_turn: bool, //like wrap
-    invulnerable: bool, //dig/fly
-    confusion: bool,
-    x_accuracy: bool,
-    mist: bool, //also guard spec
-    focus_energy: bool,
-    substitute: bool,
-    recharge: bool, //needs to recharge, like hyper beam
-    rage: bool,
-    leech_seed: bool,
-    toxic: bool,
-    light_screen: bool,
-    reflect: bool,
-    transform: bool,
-}
-
 /// This is general 
 #[derive(Debug, Clone, Default)]
 pub struct Pokemon {
@@ -51,6 +20,17 @@ pub struct Pokemon {
 impl Pokemon {
     pub fn calc_stats(&self) -> PokemonStats {
         calc_stats(&self.base_pokemon.base_stats, &self.dv_values, &self.stat_exp, self.level)
+    }
+
+    pub fn get_stats(&self) -> PokemonStats {
+        match self.stats {
+            Some(stats) => stats,
+            None => {
+                let stats = self.calc_stats();
+                self.stats = Some(stats);
+                stats
+            }
+        }
     }
 }
 
@@ -77,21 +57,6 @@ impl BasePokemon {
             type1,
             type2,
         }
-    }
-}
-
-#[derive(Debug, Clone, Copy)]
-enum Status {
-    None,
-    Poisoned,
-    Burned,
-    Paralyzed,
-    Frozen,
-}
-
-impl Default for Status {
-    fn default() -> Self {
-        Status::None
     }
 }
 

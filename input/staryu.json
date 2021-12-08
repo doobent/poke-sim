@@ -13,5 +13,8 @@
         "defense": 8000,
         "speed": 7000,
         "special": 10000
-    }
+    },
+    "moves": [
+        "test"
+    ]
 }
